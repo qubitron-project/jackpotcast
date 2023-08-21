@@ -1,0 +1,1027 @@
+<!doctype html>
+<head>
+    <title>JACKPOTCAST &#8211; Global open MCN Business platform</title>
+
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- favicon -->
+   <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="20x20">
+
+   <!-- fancybox -->
+   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+   <!-- bootstarp icon -->
+   <link rel="stylesheet" href="assets/css/dropzone.min.css">
+   <!-- bootstarp icon -->
+   <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+   <!-- animate Css -->
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <!-- Swiper bundle Css -->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <!--Commen-box-->
+   <link rel="stylesheet" href="assets/css/comment-box.css">
+   <!-- DropDown Profile -->
+   <script src="https://use.fontawesome.com/c46d9607cc.js"></script><link rel="stylesheet" href="assets/css/dropdown-menu.css">
+   <!-- DropDown Profile END -->
+
+   <link rel="stylesheet" href="assets/css/globals.css">
+   <!--Platform Style-->
+   <link rel="stylesheet" href="assets/css/platform-style.css">
+
+</head>
+
+<body class="theme-light-active">
+
+    <!-- mobil__searchbar style -->
+    <div class="mobil__searchbar" id="mobilSearch">
+       <div class="input__wrapper">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-6">
+                       <div class="pb-3 d-flex align-items-center justify-content-between"><h5>What are you looking for?</h5> <span class="close__search" id="closeSearch">Close Popup</span></div>
+                       <form action="#">
+                           <div class="d-flex">
+                               <input type="text" placeholder="Search Creators, Project etc.">
+                               <button class="submit-v1 ml-2">Search</button>
+                           </div>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- ===============  header area start =============== -->
+   <header>
+       <div class="header-area header-defult header_style__one bg-body">
+           <div class="nav-container">
+               <div class="row justify-content-between">
+                   <div class="col-xl-4 col-lg-4 col-2 align-items-center d-flex">
+                       <div class="nav-logo logo-switch d-flex justify-content-between align-items-center glaxy-fold-logo">
+                           <a class="logo-dark" href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                           <a class="logo-light" href="index.html"><img src="assets/images/logo-v2.png" alt="logo"></a>
+                       </div>
+                       <div class="nav-search-style-one w-100 d-xl-block d-none">
+                           <span class="search__icon">
+                               <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                   xmlns="http://www.w3.org/2000/svg">
+                                   <path
+                                       d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z"
+                                       stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round"></path>
+                                   <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" stroke-width="1.5"
+                                       stroke-linecap="round" stroke-linejoin="round"></path>
+                               </svg>
+                           </span>
+                           <input type="text" placeholder="Search Creators,Project etc.">
+                       </div>
+                   </div>
+                   <div class="col-xxl-8 col-lg-8 col-10  d-flex justify-content-end">
+                       <nav class="main-nav mr-2">
+                           <div class="inner-logo d-xl-none text-center pt-4">
+                               <a href="index.html#" class="for-dark"><img src="assets/images/logo.svg" alt=""></a>
+                               <a href="index.html#" class="for-light"><img src="assets/images/logo-v2.png" alt=""></a>
+                           </div>
+                           <ul>
+                               <li><a href="about.html">About</a></li>
+                               <li><a href="create_project.html">Create Your Project</a></li>
+                               <li><a href="contact.html">Contact</a></li>
+
+                           </ul>
+
+                           <div class="d-xl-none d-inline-flex flex-column gap-3 px-3 mt-4">
+                               <a href="connect_wallet.html" class="btn-rounded-v1">
+                                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2.34973 10.7158L10.716 2.34961" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M7.37085 12.3959L8.21097 11.5558" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M9.25537 10.5125L10.9286 8.83925" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M2.11995 6.76712L6.76864 2.11844C8.25285 0.634221 8.99496 0.62722 10.4652 2.09744L13.9027 5.53494C15.3729 7.00515 15.3659 7.74726 13.8817 9.23148L9.233 13.8802C7.74878 15.3644 7.00667 15.3714 5.53645 13.9012L2.09895 10.4637C0.628736 8.99345 0.628736 8.25834 2.11995 6.76712Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M0.998901 15H15.001" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                       </svg>
+                                   <span> Connect Wallet</span>
+                               </a>
+                           </div>
+                       </nav>
+                       <div class="nav-actions d-flex align-items-center">
+                           <div class="dark-light-konum">
+
+                           <label class="theme-switch-one style__one mr-2">
+                               <input type="checkbox" id="slider" class="check-status">
+                               <span class="slider round"></span>
+                           </label>
+                       </div>
+                           <div class="arama-konum">
+                           <button type="button" class="nav_search__icon mr-2 d-block d-xl-none mr-2 style__two" id="navSearch">
+                               <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                   xmlns="http://www.w3.org/2000/svg">
+                                   <path
+                                       d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z"
+                                       stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round"></path>
+                                   <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" stroke-width="1.5"
+                                       stroke-linecap="round" stroke-linejoin="round"></path>
+                               </svg>
+                           </button>
+                       </div>
+                           <!-- <div class="profile-switch-one mr-2">
+                               <div class="profile-switch-avater">
+                                   <a href="investor_profile.html"><img src="assets/images/profil-avater.png" alt=""></a>
+                               </div>
+                           </div> -->
+                           <!-- Profil Deneme Start-->
+                           <div class="profile-switch-one mr-2">
+                               <div class="profile-switch-avater">
+                                   <div class="action">
+                                       <div class="profile" onclick="menuToggle();">
+                                         <img src="assets/images/profil-avater.png" />
+                                       </div>
+                                       <div class="menu">
+                                           <div class="d-flex align-items-center">
+                                               <span class="Jball__icon">
+                                                   <svg width="35" height="35" viewBox="0 1 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                       <style type="text/css">
+                                                           .st0{fill:#ffff !important;}
+                                                       </style>
+                                                       <g>
+                                                           <g>
+                                                               <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"/>
+                                                               <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"/>
+                                                           </g>
+                                                           <g>
+                                                               <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                                   c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                                   c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"/>
+                                                               <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                                   c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                                   c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                                   c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                                   C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"/>
+                                                           </g>
+                                                           <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                                               C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"/>
+                                                       </g>
+                                                       </svg>
+                                               </span>
+                                               <div class="profil-jball">
+                                               <h3></span> 23,453 <span style="color: #F01463;">JBall</span></h3>
+                                               </div>
+                                           </div>
+                                         <ul>
+                                           
+                                           <li>
+                                             <img src="./assets/images/icons/user.png" /><a href="investor_profile.html#">My profile</a>
+                                           </li>
+                                           <li>
+                                             <img src="./assets/images/icons/edit.png" /><a href="profile_edit.html">Edit profile</a>
+                                           </li>
+                                           <li><img src="./assets/images/icons/question.png" /><a href="#">Help</a></li>
+                                           <li>
+                                             <img src="./assets/images/icons/log-out.png" /><a href="login.html">Logout</a>
+                                           </li>
+                                           <li style="margin-top:20px;">
+                                               <img src="./assets/images/icons/charge.png" /><a href="#">CHARGE<span style="color: #F01463;"> JBall</span></a>
+                                             </li>
+                                         </ul>
+                                       </div>
+                                     </div>
+                                     <script>
+                                       function menuToggle() {
+                                         const toggleMenu = document.querySelector(".menu");
+                                         toggleMenu.classList.toggle("active");
+                                       }
+                                     </script>
+                               </div>
+                           </div>
+                           <!-- Profil Deneme ENd-->
+
+                       
+                           <div class="d-none d-md-block">
+                               <a href="connect_wallet.html" class="btn-rounded-v1">
+                                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2.34973 10.7158L10.716 2.34961" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M7.37085 12.3959L8.21097 11.5558" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M9.25537 10.5125L10.9286 8.83925" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M2.11995 6.76712L6.76864 2.11844C8.25285 0.634221 8.99496 0.62722 10.4652 2.09744L13.9027 5.53494C15.3729 7.00515 15.3659 7.74726 13.8817 9.23148L9.233 13.8802C7.74878 15.3644 7.00667 15.3714 5.53645 13.9012L2.09895 10.4637C0.628736 8.99345 0.628736 8.25834 2.11995 6.76712Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M0.998901 15H15.001" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                       </svg>
+                                   <span> Connect Wallet</span>
+                               </a>
+                           </div>
+                           <div class="d-flex align-items-center ml-2">
+                               <div class="mobile-menu d-flex ">
+                                   <a href="javascript:void(0)" class="hamburger d-block d-xl-none">
+                                       <span class="h-top"></span>
+                                       <span class="h-middle"></span>
+                                       <span class="h-bottom"></span>
+                                   </a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </header>
+   <!-- ===============  header area end =============== -->
+
+    <div class="project_profiler__wrapper bg-body-2 section_gap_y_bottom__1">
+       
+        <div style="padding-top:100px !important;" class="container">
+         <div class="row pt-40 gy-4">
+                <div style="padding-top: 97px;" class="col-lg-3">
+                <div class="project_detail__info mobil-block">
+                   <!-- sidebar My Project filter -->
+                   <div class="accordion-item sidebar_collections__filter sidebar__filter ">
+                    <h2 class="accordion-header sidebar__header" id="filterHeadingSocial">
+                      <button style="background-color: #FEDA03; color:black;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapseSocial" aria-expanded="true" aria-controls="filter-collapseSocial">
+                        My Project
+                      </button>
+                    </h2>
+                    <div id="filter-collapseSocial" class="accordion-collapse collapse show" aria-labelledby="filterHeadingSocial" >
+                      <div class="accordion-body sidebar__body">
+                           <ul>
+                               <li class="single__col style__two">
+                                <label>
+                                    <span class="col__right">
+                                        <input type="checkbox">
+                                         <span class="check__circle"></span> 
+                                        <ins class="col__name">All</ins>
+                                    </span>
+                                    <span class="type__count">3</span>
+                                </label>
+                               </li>
+                               <li class="single__col style__two">
+                                <label>
+                                    <span class="col__right">
+                                        <input type="checkbox">
+                                         <span class="check__circle"></span> 
+                                        <ins class="col__name">On Project</ins>
+                                    </span>
+                                    <span class="type__count">1</span>
+                                </label>
+                               </li>
+                               <li class="single__col style__two">
+                                <label>
+                                    <span class="col__right">
+                                        <input type="checkbox">
+                                         <span class="check__circle"></span> 
+                                        <ins class="col__name">On casting</ins>
+                                    </span>
+                                    <span class="type__count">1</span>
+                                </label>
+                               </li>
+                              
+                           </ul>
+                      </div>
+                    </div>
+                </div>
+                 <!-- sidebar My Project filter END -->
+                 <div style="display: flex;justify-content:center; width: 100%; margin-top: 60px;">
+                    <a style="padding: 8px;width: 80%; background-color: #FEDA03; color: black;" href="creator_profit.html" class="btn-rounded-v10">
+                    
+                        <span style="font-size:15px;">Project details</span>
+                    </a>
+                </div>
+                </div>
+                </div>
+
+                <div class="col-lg-9">
+                    <div class="jackpot-creator_grid__header row mb-40">
+                        <div style="display:flex;" class="col-lg-12">
+                        
+                                <div style="display: flex;align-items: center;justify-content: flex-start;" class="avater">
+                                    <img  src="assets/images/jackpot-creator/d-project.png" alt="" width="35" height="35" class="project__img">
+                                    <h6 style="color: white; padding-left: 5px;">@tamcevzet</h6>
+                                </div>
+                                <div style="display: flex;align-items: center;justify-content: flex-start; padding-left: 30px;" class="avater">
+                                    <a href="profile_edit.html" class="social__link"><img src="./assets/images/icons/profile-edit.png" alt=""
+                                            class="social__icon"> <span style="color: white;">Edit profile</span></a>
+                                            </div>
+                                <div style="display: flex;align-items: center;justify-content: flex-start;padding-left: 10px;" class="avater">
+                                    <svg width="60" height="60" viewBox="-5 4 15 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <style type="text/css">
+                                            .st0{fill:#F01463 !important;}
+                                        </style>
+                                        <g>
+                                            <g>
+                                                <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                                <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                            </g>
+                                            <g>
+                                                <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                    c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                    c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                                <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                    c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                    c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                    c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                    C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                            </g>
+                                            <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                                C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                        </g>
+                                        </svg>
+                                    <h6 style="color: white; padding-left: 5px;">Total: 23,453</h6>
+                                </div>
+                                
+                               
+                                            
+                  
+                        </div>
+                        
+                        
+                    </div>
+
+
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                            aria-labelledby="pills-tab-one">
+                            <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-4">
+                                <!--Creator Card Start-->  
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                        <div class="jackpot-creator__thumb">
+                        <div class="jackpot-creator__cover">
+                        <div class="card__image">
+                        <div class="creator-card-video">
+						<div class="youtube-player" data-id="GaKkHfOdhhA">
+						<a href="https://youtu.be/GaKkHfOdhhA"></a>
+						</div>
+                        </div>
+						</div>
+                        </div>
+                        <div class="jackpot-creator__actions">
+                        
+                        <div class="avater__group">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu_iOXPZ_lXW-q8uMLP5R8rtbTy5l3JLHC83AE_CsQ=s88-c-k-c0x00ffffff-no-rj" alt="">
+                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                        </div>
+                        </div>
+                        </div>
+                        <div class="jackpot-creator__disc">
+                        <h2 class="jackpot-creator__title"><a href="project_detail_a.html">Mukbang </a></h2>
+                        <div class="jackpot-creator__title-1">
+                        <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                        
+                        </div>
+                        </div>
+                        
+                        <div class="raised-amount">
+                        <h1>Raised 100% (61 Casters) </h1>
+                        <h2>321,000 Jball</h2>
+                        </div>
+                            <div class="jackpot-creator__title-1">
+                                <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                <p>On project</p>
+                                <div class="dividing-line"></div>
+                                <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                <div class="dividing-line"></div>
+                                <p class="youtube-p-dr">Revenue distribution rate</p>
+                                <p class="youtube-p">Creator 70%  Caster 30%</p>
+                                <div class="dividing-line"></div>
+                                <p  class="youtube-p-dr">Mission</p>
+                                <p  class="youtube-p">15 videos (monthly)</p>
+                                <div class="dividing-line"></div>
+                                <p  class="youtube-p-dr">Status</p>
+                                <p  class="youtube-p">36 Videos, 120K Views</p>
+                                <p  class="youtube-p">Subscribers: +132  </p>
+                                <div class="revenue">
+                                   <div class="project-revenue-alignment">
+                                   <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                       <h6>Total revenue</h6>
+                                       <h5>10,000 JB</h5>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            <div class="jackpot-creator__btns">
+                            <div>
+                            <a href="comment.html" style="font-size:12px !important; "  class="casting-btn">View project</a>
+                            </a>
+                            </div>
+                             <a href="#" style="font-size:12px !important; " class="casting-btn">Youtube</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    </div>
+                        <!--Creator Card --> 
+                         <!--Creator Card Start-->  
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                        <div class="jackpot-creator__thumb">
+                        <div class="jackpot-creator__cover">
+                        <div class="card__image">
+                        <div class="creator-card-video">
+						<div class="youtube-player" data-id="GaKkHfOdhhA">
+						<a href="https://youtu.be/GaKkHfOdhhA"></a>
+						</div>
+                        </div>
+						</div>
+                        </div>
+                        <div class="jackpot-creator__actions">
+                        
+                        <div class="avater__group">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu_iOXPZ_lXW-q8uMLP5R8rtbTy5l3JLHC83AE_CsQ=s88-c-k-c0x00ffffff-no-rj" alt="">
+                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                        </div>
+                        </div>
+                        </div>
+                        <div class="jackpot-creator__disc">
+                        <h2 class="jackpot-creator__title"><a href="project_detail_a.html">Mukgang </a></h2>
+                        <div class="jackpot-creator__title-1">
+                        <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                        
+                        </div>
+                        </div>
+                        
+                        <div class="raised-amount">
+                        <h1>Raised 60% (24 Casters)</h1>
+                        <h2>100,000 Jball</h2>
+                        </div>
+                            <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                <p>On casting</p>
+                                <div class="dividing-line"></div>
+                                <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                <div class="dividing-line"></div>
+                                <p class="youtube-p-dr">Mission</p>
+                                <p class="youtube-p">15 videos (monthly)</p>
+                                
+                            </div>
+                            </div>
+                            <div class="jackpot-creator__btns">
+                            <div>
+                            <a href="comment.html" style="font-size:12px !important; "  class="casting-btn">View project</a>
+                            </a>
+                            </div>
+                             <a href="#" style="font-size:12px !important; " class="casting-btn">Youtube</a>
+                            </div>
+                        </div>
+                        </div>
+                        <!--Creator Card -->  
+                        </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-tab-two">
+                            <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-4">
+
+                                <div class="col pt-lg-0 pt-3">
+                                    <div class="auction_card_style__two">
+                                        <div class="auction_card__thumb">
+                                            <a href="project_detail_a.html">
+                                                <img src="assets/images/jackpot-creator/auction-nine.png" alt="">
+                                            </a>
+                                            <a href="project_detail_a.html" class="casting__btn">
+                                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.34865 0.671187C6.24866 -0.251818 4.60869 -0.10834 3.68569 0.991654L1.72805 3.32468C0.805041 4.42467 0.94852 6.06464 2.04851 6.98764L3.02566 7.80757L0.920733 10.3161C0.395084 10.9426 0.476795 11.8765 1.10324 12.4022C1.72968 12.9278 2.66364 12.8461 3.18929 12.2197L5.29422 9.71111L6.36918 10.6131C7.46917 11.5361 9.10914 11.3926 10.0321 10.2926L11.9898 7.95962C12.9128 6.85962 12.7693 5.21966 11.6693 4.29665L7.34865 0.671187ZM4.60494 1.763C5.10194 1.1707 5.985 1.09344 6.5773 1.59044L6.6648 1.66385L2.96539 6.07264C2.9456 6.09622 2.92823 6.12102 2.91324 6.14674L2.81986 6.06839C2.22755 5.57139 2.1503 4.68833 2.6473 4.09602L4.60494 1.763ZM3.71104 6.81618L6.28054 8.97225L10.038 4.4943L7.47438 2.34317L3.77497 6.75195C3.75518 6.77554 3.73377 6.79695 3.71104 6.81618ZM7.14052 9.69386L7.09012 9.65156L10.8476 5.17362L10.898 5.21591C11.4903 5.71291 11.5675 6.59597 11.0705 7.18827L9.11289 9.5213C8.61589 10.1136 7.73283 10.1909 7.14052 9.69386ZM1.83999 11.0875L3.71871 8.8485L4.14876 9.20935L2.27003 11.4483C2.17039 11.5671 1.99334 11.5826 1.87458 11.4829C1.75583 11.3833 1.74034 11.2062 1.83999 11.0875Z"
+                                                        fill="currentColor" />
+                                                </svg>
+
+                                                casting
+                                            </a>
+                                        </div>
+                                        <div class="jackpot-creator__disc">
+                                            <div class="jackpot-creator__title">
+                                                <h5><a href="project_detail_a.html" class="jackpot-creator__creator">Abstract Painting<img src="assets/images/icons/tick-blue.svg" alt=""></a></h5>
+                                                <ins class="current-price"><svg width="35" height="35" viewBox="-5 4 15 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <style type="text/css">
+                                .st0{fill:#F01463;}
+                            </style>
+                            <g>
+                                <g>
+                                    <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                    <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                </g>
+                                <g>
+                                    <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                        c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                        c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                    <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                        c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                        c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                        c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                        C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                </g>
+                                <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                    C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                            </g>
+                            </svg> <span>0.01Jball</span></ins>
+                                            </div>
+
+                                            <div class="jackpot-creator__bottom">
+                                                <ul class="jackpot-creator__actions d-flex">
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M0.0732541 11.2132L6.47058 0.254439C6.65303 -0.0648577 7.10917 -0.0876645 7.32584 0.208825L9.10477 2.59215C9.61793 3.27636 9.65217 4.20003 9.20743 4.92986L5.39865 11.0307C5.02234 11.6351 4.36096 12 3.64254 12H0.518006C0.118885 11.9886 -0.132008 11.5553 0.0732541 11.2132Z"
+                                                                fill="currentColor" />
+                                                            <path
+                                                                d="M10.5415 7.55271L8.35206 11.2018C8.1468 11.5439 8.39769 11.9887 8.79681 11.9887H13.1757C13.5748 11.9887 13.8257 11.5553 13.6205 11.2018L11.431 7.55271C11.2372 7.22201 10.7468 7.22201 10.5415 7.55271Z"
+                                                                fill="currentColor" />
+                                                        </svg></li>
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M6.6985 1.99765L6.99742 2.1692L7.2962 1.99743C7.50862 1.8753 7.71506 1.74828 7.92067 1.62177C8.31313 1.38029 8.70258 1.14066 9.12479 0.940522C9.75536 0.641607 10.2727 0.531212 10.6931 0.653546C13.0724 1.35159 13.8419 3.69977 13.1616 5.63257L13.1605 5.63569C12.6276 7.17674 11.1864 8.58658 9.76123 9.65606C8.42345 10.66 7.1915 11.297 6.99824 11.3948C6.80115 11.2956 5.58162 10.6685 4.25227 9.67217C2.8336 8.60887 1.38875 7.19728 0.835985 5.63289C0.154691 3.69818 0.922552 1.34972 3.29816 0.653425L3.29875 0.653253C3.73433 0.525103 4.24488 0.633423 4.86272 0.928388C5.27058 1.1231 5.64246 1.35367 6.02504 1.59088C6.24316 1.72612 6.46476 1.86351 6.6985 1.99765Z"
+                                                                stroke="currentColor" stroke-width="1.2" />
+                                                        </svg> <span>3</span>
+                                                    </li>
+                                                </ul>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col pt-lg-0 pt-3">
+                                    <div class="auction_card_style__two">
+                                        <div class="auction_card__thumb">
+                                            <a href="project_detail_a.html">
+                                                <img src="assets/images/jackpot-creator/auction-four.png" alt="">
+                                            </a>
+                                            <a href="project_detail_a.html" class="casting__btn">
+                                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.34865 0.671187C6.24866 -0.251818 4.60869 -0.10834 3.68569 0.991654L1.72805 3.32468C0.805041 4.42467 0.94852 6.06464 2.04851 6.98764L3.02566 7.80757L0.920733 10.3161C0.395084 10.9426 0.476795 11.8765 1.10324 12.4022C1.72968 12.9278 2.66364 12.8461 3.18929 12.2197L5.29422 9.71111L6.36918 10.6131C7.46917 11.5361 9.10914 11.3926 10.0321 10.2926L11.9898 7.95962C12.9128 6.85962 12.7693 5.21966 11.6693 4.29665L7.34865 0.671187ZM4.60494 1.763C5.10194 1.1707 5.985 1.09344 6.5773 1.59044L6.6648 1.66385L2.96539 6.07264C2.9456 6.09622 2.92823 6.12102 2.91324 6.14674L2.81986 6.06839C2.22755 5.57139 2.1503 4.68833 2.6473 4.09602L4.60494 1.763ZM3.71104 6.81618L6.28054 8.97225L10.038 4.4943L7.47438 2.34317L3.77497 6.75195C3.75518 6.77554 3.73377 6.79695 3.71104 6.81618ZM7.14052 9.69386L7.09012 9.65156L10.8476 5.17362L10.898 5.21591C11.4903 5.71291 11.5675 6.59597 11.0705 7.18827L9.11289 9.5213C8.61589 10.1136 7.73283 10.1909 7.14052 9.69386ZM1.83999 11.0875L3.71871 8.8485L4.14876 9.20935L2.27003 11.4483C2.17039 11.5671 1.99334 11.5826 1.87458 11.4829C1.75583 11.3833 1.74034 11.2062 1.83999 11.0875Z"
+                                                        fill="currentColor" />
+                                                </svg>
+
+                                                casting
+                                            </a>
+                                        </div>
+                                        <div class="jackpot-creator__disc">
+                                            <div class="jackpot-creator__title">
+                                                <h5><a href="project_detail_a.html" class="jackpot-creator__creator">Abstract Painting<img src="assets/images/icons/tick-blue.svg" alt=""></a></h5>
+                                                <ins class="current-price"><svg width="35" height="35" viewBox="-5 4 15 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <style type="text/css">
+                                .st0{fill:#F01463;}
+                            </style>
+                            <g>
+                                <g>
+                                    <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                    <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                </g>
+                                <g>
+                                    <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                        c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                        c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                    <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                        c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                        c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                        c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                        C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                </g>
+                                <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                    C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                            </g>
+                            </svg> <span>0.01
+                                                        Jball</span></ins>
+                                            </div>
+
+                                            <div class="jackpot-creator__bottom">
+                                                <ul class="jackpot-creator__actions d-flex">
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M0.0732541 11.2132L6.47058 0.254439C6.65303 -0.0648577 7.10917 -0.0876645 7.32584 0.208825L9.10477 2.59215C9.61793 3.27636 9.65217 4.20003 9.20743 4.92986L5.39865 11.0307C5.02234 11.6351 4.36096 12 3.64254 12H0.518006C0.118885 11.9886 -0.132008 11.5553 0.0732541 11.2132Z"
+                                                                fill="currentColor" />
+                                                            <path
+                                                                d="M10.5415 7.55271L8.35206 11.2018C8.1468 11.5439 8.39769 11.9887 8.79681 11.9887H13.1757C13.5748 11.9887 13.8257 11.5553 13.6205 11.2018L11.431 7.55271C11.2372 7.22201 10.7468 7.22201 10.5415 7.55271Z"
+                                                                fill="currentColor" />
+                                                        </svg></li>
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M6.6985 1.99765L6.99742 2.1692L7.2962 1.99743C7.50862 1.8753 7.71506 1.74828 7.92067 1.62177C8.31313 1.38029 8.70258 1.14066 9.12479 0.940522C9.75536 0.641607 10.2727 0.531212 10.6931 0.653546C13.0724 1.35159 13.8419 3.69977 13.1616 5.63257L13.1605 5.63569C12.6276 7.17674 11.1864 8.58658 9.76123 9.65606C8.42345 10.66 7.1915 11.297 6.99824 11.3948C6.80115 11.2956 5.58162 10.6685 4.25227 9.67217C2.8336 8.60887 1.38875 7.19728 0.835985 5.63289C0.154691 3.69818 0.922552 1.34972 3.29816 0.653425L3.29875 0.653253C3.73433 0.525103 4.24488 0.633423 4.86272 0.928388C5.27058 1.1231 5.64246 1.35367 6.02504 1.59088C6.24316 1.72612 6.46476 1.86351 6.6985 1.99765Z"
+                                                                stroke="currentColor" stroke-width="1.2" />
+                                                        </svg> <span>3</span>
+                                                    </li>
+                                                </ul>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col pt-lg-0 pt-3">
+                                    <div class="auction_card_style__two">
+                                        <div class="auction_card__thumb">
+                                            <a href="project_detail_a.html">
+                                                <img src="assets/images/jackpot-creator/auction-ten.png" alt="">
+                                            </a>
+                                            <a href="project_detail_a.html" class="casting__btn">
+                                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.34865 0.671187C6.24866 -0.251818 4.60869 -0.10834 3.68569 0.991654L1.72805 3.32468C0.805041 4.42467 0.94852 6.06464 2.04851 6.98764L3.02566 7.80757L0.920733 10.3161C0.395084 10.9426 0.476795 11.8765 1.10324 12.4022C1.72968 12.9278 2.66364 12.8461 3.18929 12.2197L5.29422 9.71111L6.36918 10.6131C7.46917 11.5361 9.10914 11.3926 10.0321 10.2926L11.9898 7.95962C12.9128 6.85962 12.7693 5.21966 11.6693 4.29665L7.34865 0.671187ZM4.60494 1.763C5.10194 1.1707 5.985 1.09344 6.5773 1.59044L6.6648 1.66385L2.96539 6.07264C2.9456 6.09622 2.92823 6.12102 2.91324 6.14674L2.81986 6.06839C2.22755 5.57139 2.1503 4.68833 2.6473 4.09602L4.60494 1.763ZM3.71104 6.81618L6.28054 8.97225L10.038 4.4943L7.47438 2.34317L3.77497 6.75195C3.75518 6.77554 3.73377 6.79695 3.71104 6.81618ZM7.14052 9.69386L7.09012 9.65156L10.8476 5.17362L10.898 5.21591C11.4903 5.71291 11.5675 6.59597 11.0705 7.18827L9.11289 9.5213C8.61589 10.1136 7.73283 10.1909 7.14052 9.69386ZM1.83999 11.0875L3.71871 8.8485L4.14876 9.20935L2.27003 11.4483C2.17039 11.5671 1.99334 11.5826 1.87458 11.4829C1.75583 11.3833 1.74034 11.2062 1.83999 11.0875Z"
+                                                        fill="currentColor" />
+                                                </svg>
+
+                                                casting
+                                            </a>
+                                        </div>
+                                        <div class="jackpot-creator__disc">
+                                            <div class="jackpot-creator__title">
+                                                <h5><a href="project_detail_a.html" class="jackpot-creator__creator">Abstract Painting<img src="assets/images/icons/tick-blue.svg" alt=""></a></h5>
+                                                
+                                                <ins class="current-price"><svg width="35" height="35" viewBox="-5 4 15 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <style type="text/css">
+                                .st0{fill:#F01463;}
+                            </style>
+                            <g>
+                                <g>
+                                    <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                    <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                </g>
+                                <g>
+                                    <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                        c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                        c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                    <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                        c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                        c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                        c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                        C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                </g>
+                                <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                    C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                            </g>
+                            </svg> <span>0.76
+                                                        Jball</span></ins>
+                                            </div>
+
+                                            <div class="jackpot-creator__bottom">
+                                                <ul class="jackpot-creator__actions d-flex">
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M0.0732541 11.2132L6.47058 0.254439C6.65303 -0.0648577 7.10917 -0.0876645 7.32584 0.208825L9.10477 2.59215C9.61793 3.27636 9.65217 4.20003 9.20743 4.92986L5.39865 11.0307C5.02234 11.6351 4.36096 12 3.64254 12H0.518006C0.118885 11.9886 -0.132008 11.5553 0.0732541 11.2132Z"
+                                                                fill="currentColor" />
+                                                            <path
+                                                                d="M10.5415 7.55271L8.35206 11.2018C8.1468 11.5439 8.39769 11.9887 8.79681 11.9887H13.1757C13.5748 11.9887 13.8257 11.5553 13.6205 11.2018L11.431 7.55271C11.2372 7.22201 10.7468 7.22201 10.5415 7.55271Z"
+                                                                fill="currentColor" />
+                                                        </svg></li>
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M6.6985 1.99765L6.99742 2.1692L7.2962 1.99743C7.50862 1.8753 7.71506 1.74828 7.92067 1.62177C8.31313 1.38029 8.70258 1.14066 9.12479 0.940522C9.75536 0.641607 10.2727 0.531212 10.6931 0.653546C13.0724 1.35159 13.8419 3.69977 13.1616 5.63257L13.1605 5.63569C12.6276 7.17674 11.1864 8.58658 9.76123 9.65606C8.42345 10.66 7.1915 11.297 6.99824 11.3948C6.80115 11.2956 5.58162 10.6685 4.25227 9.67217C2.8336 8.60887 1.38875 7.19728 0.835985 5.63289C0.154691 3.69818 0.922552 1.34972 3.29816 0.653425L3.29875 0.653253C3.73433 0.525103 4.24488 0.633423 4.86272 0.928388C5.27058 1.1231 5.64246 1.35367 6.02504 1.59088C6.24316 1.72612 6.46476 1.86351 6.6985 1.99765Z"
+                                                                stroke="currentColor" stroke-width="1.2" />
+                                                        </svg> <span>3</span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col pt-lg-0 pt-3">
+                                    <div class="auction_card_style__two">
+                                        <div class="auction_card__thumb">
+                                            <a href="project_detail_a.html">
+                                                <img src="assets/images/jackpot-creator/ns-three.png" alt="">
+                                            </a>
+                                            <a href="project_detail_a.html" class="casting__btn">
+                                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.34865 0.671187C6.24866 -0.251818 4.60869 -0.10834 3.68569 0.991654L1.72805 3.32468C0.805041 4.42467 0.94852 6.06464 2.04851 6.98764L3.02566 7.80757L0.920733 10.3161C0.395084 10.9426 0.476795 11.8765 1.10324 12.4022C1.72968 12.9278 2.66364 12.8461 3.18929 12.2197L5.29422 9.71111L6.36918 10.6131C7.46917 11.5361 9.10914 11.3926 10.0321 10.2926L11.9898 7.95962C12.9128 6.85962 12.7693 5.21966 11.6693 4.29665L7.34865 0.671187ZM4.60494 1.763C5.10194 1.1707 5.985 1.09344 6.5773 1.59044L6.6648 1.66385L2.96539 6.07264C2.9456 6.09622 2.92823 6.12102 2.91324 6.14674L2.81986 6.06839C2.22755 5.57139 2.1503 4.68833 2.6473 4.09602L4.60494 1.763ZM3.71104 6.81618L6.28054 8.97225L10.038 4.4943L7.47438 2.34317L3.77497 6.75195C3.75518 6.77554 3.73377 6.79695 3.71104 6.81618ZM7.14052 9.69386L7.09012 9.65156L10.8476 5.17362L10.898 5.21591C11.4903 5.71291 11.5675 6.59597 11.0705 7.18827L9.11289 9.5213C8.61589 10.1136 7.73283 10.1909 7.14052 9.69386ZM1.83999 11.0875L3.71871 8.8485L4.14876 9.20935L2.27003 11.4483C2.17039 11.5671 1.99334 11.5826 1.87458 11.4829C1.75583 11.3833 1.74034 11.2062 1.83999 11.0875Z"
+                                                        fill="currentColor" />
+                                                </svg>
+
+                                                casting
+                                            </a>
+                                        </div>
+                                        <div class="jackpot-creator__disc">
+                                            <div class="jackpot-creator__title">
+                                                <h5><a href="project_detail_a.html" class="jackpot-creator__creator">Abstract Painting<img src="assets/images/icons/tick-blue.svg" alt=""></a></h5>
+                                                <ins class="current-price"><svg width="35" height="35" viewBox="-5 4 15 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <style type="text/css">
+                                .st0{fill:#F01463;}
+                            </style>
+                            <g>
+                                <g>
+                                    <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                    <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                </g>
+                                <g>
+                                    <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                        c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                        c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                    <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                        c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                        c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                        c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                        C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                </g>
+                                <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                    C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                            </g>
+                            </svg> <span>0.76
+                                                        Jball</span></ins>
+                                            </div>
+
+                                            <div class="jackpot-creator__bottom">
+                                                <ul class="jackpot-creator__actions d-flex">
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M0.0732541 11.2132L6.47058 0.254439C6.65303 -0.0648577 7.10917 -0.0876645 7.32584 0.208825L9.10477 2.59215C9.61793 3.27636 9.65217 4.20003 9.20743 4.92986L5.39865 11.0307C5.02234 11.6351 4.36096 12 3.64254 12H0.518006C0.118885 11.9886 -0.132008 11.5553 0.0732541 11.2132Z"
+                                                                fill="currentColor" />
+                                                            <path
+                                                                d="M10.5415 7.55271L8.35206 11.2018C8.1468 11.5439 8.39769 11.9887 8.79681 11.9887H13.1757C13.5748 11.9887 13.8257 11.5553 13.6205 11.2018L11.431 7.55271C11.2372 7.22201 10.7468 7.22201 10.5415 7.55271Z"
+                                                                fill="currentColor" />
+                                                        </svg></li>
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M6.6985 1.99765L6.99742 2.1692L7.2962 1.99743C7.50862 1.8753 7.71506 1.74828 7.92067 1.62177C8.31313 1.38029 8.70258 1.14066 9.12479 0.940522C9.75536 0.641607 10.2727 0.531212 10.6931 0.653546C13.0724 1.35159 13.8419 3.69977 13.1616 5.63257L13.1605 5.63569C12.6276 7.17674 11.1864 8.58658 9.76123 9.65606C8.42345 10.66 7.1915 11.297 6.99824 11.3948C6.80115 11.2956 5.58162 10.6685 4.25227 9.67217C2.8336 8.60887 1.38875 7.19728 0.835985 5.63289C0.154691 3.69818 0.922552 1.34972 3.29816 0.653425L3.29875 0.653253C3.73433 0.525103 4.24488 0.633423 4.86272 0.928388C5.27058 1.1231 5.64246 1.35367 6.02504 1.59088C6.24316 1.72612 6.46476 1.86351 6.6985 1.99765Z"
+                                                                stroke="currentColor" stroke-width="1.2" />
+                                                        </svg> <span>3</span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col pt-lg-0 pt-3">
+                                    <div class="auction_card_style__two">
+                                        <div class="auction_card__thumb">
+                                            <a href="project_detail_a.html">
+                                                <img src="assets/images/jackpot-creator/toy-love.png" alt="">
+                                            </a>
+                                            <a href="project_detail_a.html" class="casting__btn">
+                                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.34865 0.671187C6.24866 -0.251818 4.60869 -0.10834 3.68569 0.991654L1.72805 3.32468C0.805041 4.42467 0.94852 6.06464 2.04851 6.98764L3.02566 7.80757L0.920733 10.3161C0.395084 10.9426 0.476795 11.8765 1.10324 12.4022C1.72968 12.9278 2.66364 12.8461 3.18929 12.2197L5.29422 9.71111L6.36918 10.6131C7.46917 11.5361 9.10914 11.3926 10.0321 10.2926L11.9898 7.95962C12.9128 6.85962 12.7693 5.21966 11.6693 4.29665L7.34865 0.671187ZM4.60494 1.763C5.10194 1.1707 5.985 1.09344 6.5773 1.59044L6.6648 1.66385L2.96539 6.07264C2.9456 6.09622 2.92823 6.12102 2.91324 6.14674L2.81986 6.06839C2.22755 5.57139 2.1503 4.68833 2.6473 4.09602L4.60494 1.763ZM3.71104 6.81618L6.28054 8.97225L10.038 4.4943L7.47438 2.34317L3.77497 6.75195C3.75518 6.77554 3.73377 6.79695 3.71104 6.81618ZM7.14052 9.69386L7.09012 9.65156L10.8476 5.17362L10.898 5.21591C11.4903 5.71291 11.5675 6.59597 11.0705 7.18827L9.11289 9.5213C8.61589 10.1136 7.73283 10.1909 7.14052 9.69386ZM1.83999 11.0875L3.71871 8.8485L4.14876 9.20935L2.27003 11.4483C2.17039 11.5671 1.99334 11.5826 1.87458 11.4829C1.75583 11.3833 1.74034 11.2062 1.83999 11.0875Z"
+                                                        fill="currentColor" />
+                                                </svg>
+
+                                                casting
+                                            </a>
+                                        </div>
+                                        <div class="jackpot-creator__disc">
+                                            <div class="jackpot-creator__title">
+                                                <h5><a href="project_detail_a.html" class="jackpot-creator__creator">Abstract Painting<img src="assets/images/icons/tick-blue.svg" alt=""></a></h5>
+                                                <ins class="current-price"><svg width="35" height="35" viewBox="-5 4 15 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <style type="text/css">
+                                .st0{fill:#F01463;}
+                            </style>
+                            <g>
+                                <g>
+                                    <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                    <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                </g>
+                                <g>
+                                    <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                        c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                        c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                    <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                        c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                        c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                        c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                        C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                </g>
+                                <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                    C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                            </g>
+                            </svg> <span>0.76
+                                                        Jball</span></ins>
+                                            </div>
+
+                                            <div class="jackpot-creator__bottom">
+                                                <ul class="jackpot-creator__actions d-flex">
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M0.0732541 11.2132L6.47058 0.254439C6.65303 -0.0648577 7.10917 -0.0876645 7.32584 0.208825L9.10477 2.59215C9.61793 3.27636 9.65217 4.20003 9.20743 4.92986L5.39865 11.0307C5.02234 11.6351 4.36096 12 3.64254 12H0.518006C0.118885 11.9886 -0.132008 11.5553 0.0732541 11.2132Z"
+                                                                fill="currentColor" />
+                                                            <path
+                                                                d="M10.5415 7.55271L8.35206 11.2018C8.1468 11.5439 8.39769 11.9887 8.79681 11.9887H13.1757C13.5748 11.9887 13.8257 11.5553 13.6205 11.2018L11.431 7.55271C11.2372 7.22201 10.7468 7.22201 10.5415 7.55271Z"
+                                                                fill="currentColor" />
+                                                        </svg></li>
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M6.6985 1.99765L6.99742 2.1692L7.2962 1.99743C7.50862 1.8753 7.71506 1.74828 7.92067 1.62177C8.31313 1.38029 8.70258 1.14066 9.12479 0.940522C9.75536 0.641607 10.2727 0.531212 10.6931 0.653546C13.0724 1.35159 13.8419 3.69977 13.1616 5.63257L13.1605 5.63569C12.6276 7.17674 11.1864 8.58658 9.76123 9.65606C8.42345 10.66 7.1915 11.297 6.99824 11.3948C6.80115 11.2956 5.58162 10.6685 4.25227 9.67217C2.8336 8.60887 1.38875 7.19728 0.835985 5.63289C0.154691 3.69818 0.922552 1.34972 3.29816 0.653425L3.29875 0.653253C3.73433 0.525103 4.24488 0.633423 4.86272 0.928388C5.27058 1.1231 5.64246 1.35367 6.02504 1.59088C6.24316 1.72612 6.46476 1.86351 6.6985 1.99765Z"
+                                                                stroke="currentColor" stroke-width="1.2" />
+                                                        </svg> <span>3</span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col pt-lg-0 pt-3">
+                                    <div class="auction_card_style__two">
+                                        <div class="auction_card__thumb">
+                                            <a href="project_detail_a.html">
+                                                <img src="assets/images/jackpot-creator/auction-three.png" alt="">
+                                            </a>
+                                            <a href="project_detail_a.html" class="casting__btn">
+                                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M7.34865 0.671187C6.24866 -0.251818 4.60869 -0.10834 3.68569 0.991654L1.72805 3.32468C0.805041 4.42467 0.94852 6.06464 2.04851 6.98764L3.02566 7.80757L0.920733 10.3161C0.395084 10.9426 0.476795 11.8765 1.10324 12.4022C1.72968 12.9278 2.66364 12.8461 3.18929 12.2197L5.29422 9.71111L6.36918 10.6131C7.46917 11.5361 9.10914 11.3926 10.0321 10.2926L11.9898 7.95962C12.9128 6.85962 12.7693 5.21966 11.6693 4.29665L7.34865 0.671187ZM4.60494 1.763C5.10194 1.1707 5.985 1.09344 6.5773 1.59044L6.6648 1.66385L2.96539 6.07264C2.9456 6.09622 2.92823 6.12102 2.91324 6.14674L2.81986 6.06839C2.22755 5.57139 2.1503 4.68833 2.6473 4.09602L4.60494 1.763ZM3.71104 6.81618L6.28054 8.97225L10.038 4.4943L7.47438 2.34317L3.77497 6.75195C3.75518 6.77554 3.73377 6.79695 3.71104 6.81618ZM7.14052 9.69386L7.09012 9.65156L10.8476 5.17362L10.898 5.21591C11.4903 5.71291 11.5675 6.59597 11.0705 7.18827L9.11289 9.5213C8.61589 10.1136 7.73283 10.1909 7.14052 9.69386ZM1.83999 11.0875L3.71871 8.8485L4.14876 9.20935L2.27003 11.4483C2.17039 11.5671 1.99334 11.5826 1.87458 11.4829C1.75583 11.3833 1.74034 11.2062 1.83999 11.0875Z"
+                                                        fill="currentColor" />
+                                                </svg>
+
+                                                casting
+                                            </a>
+                                        </div>
+                                        <div class="jackpot-creator__disc">
+                                            <div class="jackpot-creator__title">
+                                                <h5><a href="project_detail_a.html" class="jackpot-creator__creator">Abstract Painting<img src="assets/images/icons/tick-blue.svg" alt=""></a></h5>
+                                                <ins class="current-price"><svg width="35" height="35" viewBox="-5 4 15 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <style type="text/css">
+                                .st0{fill:#F01463;}
+                            </style>
+                            <g>
+                                <g>
+                                    <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                    <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                </g>
+                                <g>
+                                    <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                        c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                        c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                    <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                        c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                        c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                        c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                        C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                </g>
+                                <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                    C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                            </g>
+                            </svg> <span>0.46
+                                                        Jball</span></ins>
+                                            </div>
+
+                                            <div class="jackpot-creator__bottom">
+                                                <ul class="jackpot-creator__actions d-flex">
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M0.0732541 11.2132L6.47058 0.254439C6.65303 -0.0648577 7.10917 -0.0876645 7.32584 0.208825L9.10477 2.59215C9.61793 3.27636 9.65217 4.20003 9.20743 4.92986L5.39865 11.0307C5.02234 11.6351 4.36096 12 3.64254 12H0.518006C0.118885 11.9886 -0.132008 11.5553 0.0732541 11.2132Z"
+                                                                fill="currentColor" />
+                                                            <path
+                                                                d="M10.5415 7.55271L8.35206 11.2018C8.1468 11.5439 8.39769 11.9887 8.79681 11.9887H13.1757C13.5748 11.9887 13.8257 11.5553 13.6205 11.2018L11.431 7.55271C11.2372 7.22201 10.7468 7.22201 10.5415 7.55271Z"
+                                                                fill="currentColor" />
+                                                        </svg></li>
+                                                    <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M6.6985 1.99765L6.99742 2.1692L7.2962 1.99743C7.50862 1.8753 7.71506 1.74828 7.92067 1.62177C8.31313 1.38029 8.70258 1.14066 9.12479 0.940522C9.75536 0.641607 10.2727 0.531212 10.6931 0.653546C13.0724 1.35159 13.8419 3.69977 13.1616 5.63257L13.1605 5.63569C12.6276 7.17674 11.1864 8.58658 9.76123 9.65606C8.42345 10.66 7.1915 11.297 6.99824 11.3948C6.80115 11.2956 5.58162 10.6685 4.25227 9.67217C2.8336 8.60887 1.38875 7.19728 0.835985 5.63289C0.154691 3.69818 0.922552 1.34972 3.29816 0.653425L3.29875 0.653253C3.73433 0.525103 4.24488 0.633423 4.86272 0.928388C5.27058 1.1231 5.64246 1.35367 6.02504 1.59088C6.24316 1.72612 6.46476 1.86351 6.6985 1.99765Z"
+                                                                stroke="currentColor" stroke-width="1.2" />
+                                                        </svg> <span>3</span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============  footer style start =============== -->
+<div class="footer_style__one bg-body-2 varient-2 section_gap_y_top__1">
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-3">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="index.html" class="for-dark"><img src="assets/images/logo.svg" alt=""></a>
+                        <a href="index.html" class="for-light"><img src="assets/images/logo-v2.png" alt=""></a>
+                    </div>
+                    <p>We make creators and investors realize the value of the sharing economy through blockchain-based virtual currency.
+
+                    </p>
+                    <h5>Language</h5>
+
+                    <div class="languege__dropdown varient-3">
+                        <button>
+                            <img src="assets/images/icons/flag-us.png" alt=""> English
+                        </button>
+                        <ul class="languege__list">
+                            <li><a href="index.html"> <img src="assets/images/icons/flag-us.png" alt=""> English</a></li>
+                            <li><a href="index.html"> <img src="assets/images/icons/flag-us.png" alt=""> English</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 d-flex justify-content-lg-center">
+                <div class="footer__widget varient-2">
+                    <h6 class="footer_widget__title">Other Platforms</h6>
+
+                    <ul class="footer_widget__links">
+                        <li><p class="foter_w_l">Jackpotcast Metaverse</a></li>
+                        <li><p class="foter_w_l">Jackpotcast Tv</a></li>
+                        <li><p class="foter_w_l">Jackpotcast Nft Market</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6 d-flex justify-content-lg-center ">
+                <div class="footer__widget varient-2">
+                    <h6 class="footer_widget__title">Company</h6>
+
+                    <ul class="footer_widget__links">
+                       
+                        <li><a href="connect_wallet.html">Connect wallet</a></li>
+                        <li><a href="blog_1.html">Our blog </a></li>
+                        <li><a href="creators.html">Creators</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer__widget newslatter__widget">
+                    <h6 class="footer_widget__title">Join Newsletter</h6>
+                    <!-- <form action="#" mJballod="POST" id="footer_form__one">
+                        <div class="footer_newslatter__one style__three mt-2">
+                            <input type="text" placeholder="Your Email">
+                            <button type="submit"
+                                class="form__submit submit-btn-one btn-rounded-v1">Subscribe</button>
+                        </div>
+                    </form> -->
+
+                    <ul class="footer_social__links d-flex style__three">
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="#"><i class="bi bi-github"></i></a></li>
+                        <li><a href="#"><i class="bi bi-discord"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row footer__copyright has-border-top varient-2">
+            <div class="col-lg-12">
+                <p class="text-center">Copyright©2022/ <a href="index.html">JACKPOTCAST</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- ===============  footer style end =============== -->
+   <script type='text/javascript' src='assets/js/yt_video_script.js' id='theme-script-js'></script>
+
+   <!--Custom jsvascript and Plugins -->
+
+  <!-- jquery latest -->
+  <script src="assets/js/jquery-3.6.0.min.js" ></script>
+  <!-- latest bootstarp bundle -->
+  <script src="assets/js/bootstrap.bundle.min.js" ></script>
+  <!-- swiper bundle -->
+  <script src="assets/js/swiper-bundle.min.js" ></script>
+  <!-- wow js -->
+  <script src="assets/js/wow.min.js" ></script>
+  <!-- nice select -->
+  <script src="assets/js/jquery.nice-select.min.js" ></script>
+  <!-- jquery countdown -->
+  <script src="assets/js/jquery.countdown.js"  ></script>
+  <!-- dropzone js -->
+  <script src="assets/js/dropzone.min.js" ></script>
+  <!-- fancybox -->
+  <script src="assets/js/jquery.fancybox.min.js" ></script>
+  <!-- Custom JavaScript -->
+  <script async src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>

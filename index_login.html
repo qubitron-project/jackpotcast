@@ -1,0 +1,2621 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <title>JACKPOTCAST &#8211; Global open MCN Business platform</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="20x20">
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- bootstarp icon -->
+    <link rel="stylesheet" href="assets/css/dropzone.min.css">
+    <!-- bootstarp icon -->
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <!-- animate Css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Swiper bundle Css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--Commen-box-->
+    <link rel="stylesheet" href="assets/css/comment-box.css">
+    <!-- DropDown Profile -->
+    <script src="https://use.fontawesome.com/c46d9607cc.js"></script><link rel="stylesheet" href="assets/css/dropdown-menu.css">
+    <!-- DropDown Profile END -->
+
+    <link rel="stylesheet" href="assets/css/globals.css">
+    <!--Platform Style-->
+    <link rel="stylesheet" href="assets/css/platform-style.css">
+
+</head>
+
+<body class="theme-light-active">
+
+     <!-- mobil__searchbar style -->
+     <div class="mobil__searchbar" id="mobilSearch">
+        <div class="input__wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="pb-3 d-flex align-items-center justify-content-between"><h5>What are you looking for?</h5> <span class="close__search" id="closeSearch">Close Popup</span></div>
+                        <form action="#">
+                            <div class="d-flex">
+                                <input type="text" placeholder="Search Creators, Project etc.">
+                                <button class="submit-v1 ml-2">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============  header area start =============== -->
+    <header>
+        <div class="header-area header-defult header_style__one bg-body">
+            <div class="nav-container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-4 col-lg-4 col-2 align-items-center d-flex">
+                        <div class="nav-logo logo-switch d-flex justify-content-between align-items-center glaxy-fold-logo">
+                            <a class="logo-dark" href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                            <a class="logo-light" href="index.html"><img src="assets/images/logo-v2.png" alt="logo"></a>
+                        </div>
+                        <div class="nav-search-style-one w-100 d-xl-block d-none">
+                            <span class="search__icon">
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                            <input type="text" placeholder="Search Creators,Project etc.">
+                        </div>
+                    </div>
+                    <div class="col-xxl-8 col-lg-8 col-10  d-flex justify-content-end">
+                        <nav class="main-nav mr-2">
+                            <div class="inner-logo d-xl-none text-center pt-4">
+                                <a href="index.html#" class="for-dark"><img src="assets/images/logo.svg" alt=""></a>
+                                <a href="index.html#" class="for-light"><img src="assets/images/logo-v2.png" alt=""></a>
+                            </div>
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="create_project.html">Create Your Project</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+
+                            </ul>
+
+                            <div class="d-xl-none d-inline-flex flex-column gap-3 px-3 mt-4">
+                                <a href="connect_wallet.html" class="btn-rounded-v1">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.34973 10.7158L10.716 2.34961" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.37085 12.3959L8.21097 11.5558" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.25537 10.5125L10.9286 8.83925" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M2.11995 6.76712L6.76864 2.11844C8.25285 0.634221 8.99496 0.62722 10.4652 2.09744L13.9027 5.53494C15.3729 7.00515 15.3659 7.74726 13.8817 9.23148L9.233 13.8802C7.74878 15.3644 7.00667 15.3714 5.53645 13.9012L2.09895 10.4637C0.628736 8.99345 0.628736 8.25834 2.11995 6.76712Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M0.998901 15H15.001" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    <span> Connect Wallet</span>
+                                </a>
+                            </div>
+                        </nav>
+                        <div class="nav-actions d-flex align-items-center">
+                            <div class="dark-light-konum">
+
+                            <label class="theme-switch-one style__one mr-2">
+                                <input type="checkbox" id="slider" class="check-status">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                            <div class="arama-konum">
+                            <button type="button" class="nav_search__icon mr-2 d-block d-xl-none mr-2 style__two" id="navSearch">
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </button>
+                        </div>
+                            <!-- <div class="profile-switch-one mr-2">
+                                <div class="profile-switch-avater">
+                                    <a href="investor_profile.html"><img src="assets/images/profil-avater.png" alt=""></a>
+                                </div>
+                            </div> -->
+                            <!-- Profil Deneme Start-->
+                            <div class="profile-switch-one mr-2">
+                                <div class="profile-switch-avater">
+                                    <div class="action">
+                                        <div class="profile" onclick="menuToggle();">
+                                          <img src="assets/images/profil-avater.png" />
+                                        </div>
+                                        <div class="menu">
+                                            <div class="d-flex align-items-center">
+                                                <span class="Jball__icon">
+                                                    <svg width="35" height="35" viewBox="0 1 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <style type="text/css">
+                                                            .st0{fill:#ffff !important;}
+                                                        </style>
+                                                        <g>
+                                                            <g>
+                                                                <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"/>
+                                                                <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"/>
+                                                            </g>
+                                                            <g>
+                                                                <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                                    c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                                    c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"/>
+                                                                <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                                    c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                                    c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                                    c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                                    C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"/>
+                                                            </g>
+                                                            <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                                                C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"/>
+                                                        </g>
+                                                        </svg>
+                                                </span>
+                                                <div class="profil-jball">
+                                                <h3></span> 23,453 <span style="color: #F01463;">JBall</span></h3>
+                                                </div>
+                                            </div>
+                                          <ul>
+                                            
+                                            <li>
+                                              <img src="./assets/images/icons/user.png" /><a href="investor_profile.html#">My profile</a>
+                                            </li>
+                                            <li>
+                                              <img src="./assets/images/icons/edit.png" /><a href="profile_edit.html">Edit profile</a>
+                                            </li>
+                                            <li><img src="./assets/images/icons/question.png" /><a href="#">Help</a></li>
+                                            <li>
+                                              <img src="./assets/images/icons/log-out.png" /><a href="login.html">Logout</a>
+                                            </li>
+                                            <li style="margin-top:20px;">
+                                                <img src="./assets/images/icons/charge.png" /><a href="#">CHARGE<span style="color: #F01463;"> JBall</span></a>
+                                              </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                      <script>
+                                        function menuToggle() {
+                                          const toggleMenu = document.querySelector(".menu");
+                                          toggleMenu.classList.toggle("active");
+                                        }
+                                      </script>
+                                </div>
+                            </div>
+                            <!-- Profil Deneme ENd-->
+
+                        
+                            <div class="d-none d-md-block">
+                                <a href="connect_wallet.html" class="btn-rounded-v1">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.34973 10.7158L10.716 2.34961" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.37085 12.3959L8.21097 11.5558" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.25537 10.5125L10.9286 8.83925" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M2.11995 6.76712L6.76864 2.11844C8.25285 0.634221 8.99496 0.62722 10.4652 2.09744L13.9027 5.53494C15.3729 7.00515 15.3659 7.74726 13.8817 9.23148L9.233 13.8802C7.74878 15.3644 7.00667 15.3714 5.53645 13.9012L2.09895 10.4637C0.628736 8.99345 0.628736 8.25834 2.11995 6.76712Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M0.998901 15H15.001" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    <span> Connect Wallet</span>
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center ml-2">
+                                <div class="mobile-menu d-flex ">
+                                    <a href="javascript:void(0)" class="hamburger d-block d-xl-none">
+                                        <span class="h-top"></span>
+                                        <span class="h-middle"></span>
+                                        <span class="h-bottom"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ===============  header area end =============== -->
+
+  <!-- ===============  hero one style start =============== -->
+  <div class="hero_style__two bg-body-2 pt-60 pb-60">
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-9">
+                <div class="swiper hero_slider__two">
+                    <div class="swiper-wrapper ">
+
+                        <!--New Creator Slide Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_featured__slide">
+                                <div class="featured_slide__bg">
+                                    <img src="assets/images/creator/alex/hero.jpg" alt="">
+                                </div>
+                                <div class="featured_slide__content">
+                                 <p class="project">Alex</p>
+                                <div class="featured_slide__bottom">
+                                <a href="project_detail_a.html" class="btn-pill-v1"><img src="assets/images/icons/casting-regular.svg" alt=""> <span>Raise a casting</span></a>
+                                <div class="feat_jackpot-creator__price">
+                                    <div class="total-margin">
+                                        <span>Raised</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>100,000 JBAll</ins>
+                                    <div class="total-margin"><span>Goal</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>300,000 JBAll</ins>
+                                </div>
+                                </div>
+                                <div class="new__creator">
+                                <h1>New Creators</h1>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--New Creator Slide Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_featured__slide">
+                                <div class="featured_slide__bg">
+                                    <img src="assets/images/creator/nicholas/hero.jpg" alt="">
+                                </div>
+                                <div class="featured_slide__content">
+                                 <p class="project">Nicholas</p>
+                                <div class="featured_slide__bottom">
+                                <a href="project_detail_a.html" class="btn-pill-v1"><img src="assets/images/icons/casting-regular.svg" alt=""> <span>Raise a casting</span></a>
+                                <div class="feat_jackpot-creator__price">
+                                    <div class="total-margin">
+                                        <span>Raised</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>100,000 JBAll</ins>
+                                    <div class="total-margin"><span>Goal</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>300,000 JBAll</ins>
+                                </div>
+                                </div>
+                                <div class="new__creator">
+                                <h1>New Creators</h1>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--New Creator Slide Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_featured__slide">
+                                <div class="featured_slide__bg">
+                                    <img src="assets/images/creator/Na-yong/hero.jpg" alt="">
+                                </div>
+                                <div class="featured_slide__content">
+                                 <p class="project">Kim Na-young</p>
+                                <div class="featured_slide__bottom">
+                                <a href="project_detail_a.html" class="btn-pill-v1"><img src="assets/images/icons/casting-regular.svg" alt=""> <span>Raise a casting</span></a>
+                                <div class="feat_jackpot-creator__price">
+                                    <div class="total-margin">
+                                        <span>Raised</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>100,000 JBAll</ins>
+                                    <div class="total-margin"><span>Goal</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>300,000 JBAll</ins>
+                                </div>
+                                </div>
+                                <div class="new__creator">
+                                <h1>New Creators</h1>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--New Creator Slide Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_featured__slide">
+                                <div class="featured_slide__bg">
+                                    <img src="assets/images/creator/anna/hero.jpg" alt="">
+                                </div>
+                                <div class="featured_slide__content">
+                                 <p class="project">Anna</p>
+                                <div class="featured_slide__bottom">
+                                <a href="project_detail_a.html" class="btn-pill-v1"><img src="assets/images/icons/casting-regular.svg" alt=""> <span>Raise a casting</span></a>
+                                <div class="feat_jackpot-creator__price">
+                                    <div class="total-margin">
+                                        <span>Raised</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>100,000 JBAll</ins>
+                                    <div class="total-margin"><span>Goal</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>300,000 JBAll</ins>
+                                </div>
+                                </div>
+                                <div class="new__creator">
+                                <h1>New Creators</h1>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--New Creator Slide Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_featured__slide">
+                                <div class="featured_slide__bg">
+                                    <img src="assets/images/creator/toy-love/hero.jpg" alt="">
+                                </div>
+                                <div class="featured_slide__content">
+                                 <p class="project">Toy-Love</p>
+                                <div class="featured_slide__bottom">
+                                <a href="project-details-toy-love.html" class="btn-pill-v1"><img src="assets/images/icons/casting-regular.svg" alt=""> <span>Raise a casting</span></a>
+                                <div class="feat_jackpot-creator__price">
+                                    <div class="total-margin">
+                                        <span>Raised</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>100,000 JBAll</ins>
+                                    <div class="total-margin"><span>Goal</span></div>
+                                <ins><svg width="35" height="35" viewBox="0 -1 5 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <style type="text/css">
+                                        .st0{fill:#FEDA03 !important;}
+                                    </style>
+                                    <g>
+                                        <g>
+                                            <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"></path>
+                                            <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"></path>
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"></path>
+                                            <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"></path>
+                                        </g>
+                                        <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                            C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"></path>
+                                    </g>
+                                    </svg>300,000 JBAll</ins>
+                                </div>
+                                </div>
+                                <div class="new__creator">
+                                <h1>New Creators</h1>
+                                </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <!--New Creator Slide END-->
+                        
+                        
+
+
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="swiper hero_thumbs__two">
+                    <div class="swiper-wrapper">
+                        <!--Video Slide-Creator Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_thumb__slide">
+                                <div class="hero__thumb">
+                                    <img src="assets/images/creator/toy-love/profil/toy-love-hero-pro.png" alt="">
+                                </div>
+                                <div class="hero_thumb__disc">
+                                    <h6><a href="project-details-toy-love.html#">Toy-love</a>&nbsp;<img src="assets/images/icons/tick-blue.svg" alt=""></h6>
+                                    <ins>531 Jball</ins>
+                                </div>
+                                <span class="thumb_progress__bar"></span>
+                            </div>
+                        </div>
+                         <!--Video Slide-Creator Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_thumb__slide">
+                                <div class="hero__thumb">
+                                    <img src="assets/images/creator/alex/profil/alex-hero-pro.png" alt="">
+                                </div>
+                                <div class="hero_thumb__disc">
+                                    
+                                    <h6><a href="project_detail_a.html#">Alex</a>&nbsp;<img src="assets/images/icons/tick-blue.svg" alt=""></h6>
+                                    <ins>I wanna be a best creator</ins>
+                                </div>
+                                <span class="thumb_progress__bar"></span>
+                            </div>
+                        </div>
+                         <!--Video Slide-Creator Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_thumb__slide">
+                                <div class="hero__thumb">
+                                    <img src="assets/images/creator/nicholas/profil/nicholas-hero-pro.png" alt="">
+                                </div>
+                                <div class="hero_thumb__disc">
+                                    <h6><a href="project_detail_a.html#">Nicholas</a>&nbsp;<img src="assets/images/icons/tick-blue.svg" alt=""></h6>
+                                    <ins>1,367 Jball</ins>
+                                </div>
+                                <span class="thumb_progress__bar"></span>
+                            </div>
+                        </div>
+                        <!--Video Slide Start-->
+                        <div class="swiper-slide">
+                            <div class="hero_thumb__slide">
+                                <div class="hero__thumb">
+                                    <img src="assets/images/creator/Na-yong/profil/Na-yong-hero-pro.png" alt="">
+                                </div>
+                                <div class="hero_thumb__disc">
+                                    <h6><a href="project_detail_a.html#">Kim Na-young</a>&nbsp;<img src="assets/images/icons/tick-blue.svg" alt=""></h6>
+                                    <ins>1,367 Jball</ins>
+                                </div>
+                                <span class="thumb_progress__bar"></span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero_thumb__slide">
+                                <div class="hero__thumb">
+                                    <img src="assets/images/creator/anna/profil/anna-hero-pro.png" alt="">
+                                </div>
+                                <div class="hero_thumb__disc">
+                                    <h6><a href="project_detail_a.html#">Anna</a>&nbsp;<img src="assets/images/icons/tick-blue.svg" alt=""></h6>
+                                    <ins>1,367 Jball</ins>
+                                </div>
+                                <span class="thumb_progress__bar"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<!-- ===============  hero one style end =============== -->
+
+
+<!-- ===============  tranding auction style start =============== -->
+<div class="live_auction_style__one bg-body section_gap_y_top__2">
+<div class="container">
+    <div class="row pb-30">
+        <div class="col-lg-12 d-flex align-items-center justify-content-between gap-18 flex-wrap flex-lg-nowrap ">
+            <h2 class="section_title__1 fw-bold">
+                <span class="text-nowrap text-nowrap-mobile">TOP CREATORS</span>
+            </h2>
+            <div class="section__line d-lg-block d-none"></div>
+            <div class="section__actions d-flex gap-4">
+
+                <div class="slider__navigation d-flex gap-2">
+                    <div class="live_auction__prev navigation__btn btn__prev">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.75 13.1677L1.81066 8.22739C1.22734 7.64395 1.22734 6.68924 1.81066 6.1058L6.75 1.16553"
+                                stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="live_auction__next navigation__btn btn__next">
+                        <svg width="7" fill="none" height="14" viewBox="0 0 7 14"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.75 13.1677L5.68934 8.22739C6.27266 7.64395 6.27266 6.68924 5.68934 6.1058L0.75 1.16553"
+                                stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="project-filter">
+        <!--<div class="d-md-block">
+            <a style="margin-right:12px ;"  class="btn-rounded-v1">
+               
+                <span>On castinging</span>
+            </a>
+        </div>
+        <div class="d-md-block">
+            <a class="btn-rounded-v1">
+               
+                <span>On Project</span>
+            </a>
+        </div>-->
+    </div>
+    <div class="swiper live_auction_slider__one">
+        <div class="swiper-wrapper">
+            <!--Slider Start-->
+            <div class="swiper-slide">
+                <div class="auction_card_style__one">
+                    <!--Creator Card Start On Project-->
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                            <div class="jackpot-creator__thumb">
+                                <div class="jackpot-creator__cover">
+                                    <div class="card__image">
+                                        <div class="creator-card-video">
+                                            <div class="youtube-player" data-id="HbwpcVpcMq0">
+                                                <a href="https://youtu.be/HbwpcVpcMq0"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__actions">
+
+                                    <div class="avater__group">
+                                        <img src="https://yt3.googleusercontent.com/nOYELJeVijoff14BatQxlNfDN7fwebnx8RF_iLmtuwlybvx9cDo_Bk7c0z3zbBMwy6Bz6o_jsQ=s176-c-k-c0x00ffffff-no-rj"
+                                            alt="">
+                                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jackpot-creator__disc">
+                                <h2 class="jackpot-creator__title">신입사원 탐</h2>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+
+                                    </div>
+                                </div>
+
+                                <div class="raised-amount">
+                                    <h1>Raised 100% (61 Casters) </h1>
+                                    <h2>321,000 Jball</h2>
+                                </div>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>On project</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                        <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Revenue distribution rate</p>
+                                        <p class="youtube-p">Creator 70% Caster 30%</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Mission</p>
+                                        <p class="youtube-p">15 videos (monthly)</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Status</p>
+                                        <p class="youtube-p">36 Videos, 120K Views</p>
+                                        <p class="youtube-p">Subscribers: +132 </p>
+                                        <div class="revenue">
+                                            <div class="project-revenue-alignment">
+                                                <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                                    <h6>Project revenue</h6>
+                                                    <h5>642,000 JB</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__btns">
+                                    <div>
+                                        <p style="font-size:12px !important; " class="casting-btn">View project</p>
+
+                                    </div>
+                                    <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Creator Card -->
+                </div>
+            </div>
+
+
+            <!--Slider Start-->
+            <div class="swiper-slide">
+                <div class="auction_card_style__one">
+                    <!--Creator Card Start On Casting-->
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                            <div class="jackpot-creator__thumb">
+                                <div class="jackpot-creator__cover">
+                                    <div class="card__image">
+                                        <div class="creator-card-video">
+                                            <div class="youtube-player" data-id="h5W8RhjeBGY">
+                                                <a href="https://youtu.be/h5W8RhjeBGY"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__actions">
+
+                                    <div class="avater__group">
+                                        <img src="https://yt3.googleusercontent.com/CoKMtaREFzvZyTLOKw-Z0-Yg18EpRISYCEciw904ha8215qcSzPLI30KaSn2WO18i0VlSB6teA=s176-c-k-c0x00ffffff-no-rj"
+                                            alt="">
+                                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jackpot-creator__disc">
+                                <h2 class="jackpot-creator__title"><a href="project_detail_a.html">Errdal</a></h2>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+
+                                    </div>
+                                </div>
+
+                                <div class="raised-amount">
+                                    <h1>Raised 60% (24 casters) </h1>
+                                    <h2>100,000 Jball </h2>
+                                </div>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>On casting</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                        <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Mission</p>
+                                        <p class="youtube-p">15 videos (monthly)</p>
+
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__btns">
+                                    <div>
+                                        <p style="font-size:12px !important; " class="casting-btn">View project</p>
+
+                                    </div>
+                                    <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Creator Card -->
+                </div>
+            </div>
+
+
+            <!--Slider Start-->
+            <div class="swiper-slide">
+                <div class="auction_card_style__one">
+                    <!--Creator Card Start On Project-->
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                            <div class="jackpot-creator__thumb">
+                                <div class="jackpot-creator__cover">
+                                    <div class="card__image">
+                                        <div class="creator-card-video">
+                                            <div class="youtube-player" data-id="nOilbvKIyLE">
+                                                <a href="https://youtu.be/nOilbvKIyLE"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__actions">
+
+                                    <div class="avater__group">
+                                        <img src="https://yt3.ggpht.com/RWTNEbCbb132tpLsmCdbvsUsGTj3viJGgHMVzmEHU7VygQZ2mAnEKZCGt4o0m21-rloxjyOvxx8=s48-c-k-c0x00ffffff-no-rj"
+                                            alt="">
+                                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jackpot-creator__disc">
+                                <h2 class="jackpot-creator__title"><a href="project_detail_a.html">SANGHEUM</a></h2>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+
+                                    </div>
+                                </div>
+
+                                <div class="raised-amount">
+                                    <h1>Raised 100% (61 Casters) </h1>
+                                    <h2>321,000 Jball</h2>
+                                </div>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>On project</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                        <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Revenue distribution rate</p>
+                                        <p class="youtube-p">Creator 70% Caster 30%</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Mission</p>
+                                        <p class="youtube-p">15 videos (monthly)</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Status</p>
+                                        <p class="youtube-p">36 Videos, 120K Views</p>
+                                        <p class="youtube-p">Subscribers: +132 </p>
+                                        <div class="revenue">
+                                            <div class="project-revenue-alignment">
+                                                <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                                    <h6>Project revenue</h6>
+                                                    <h5>642,000 JB</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__btns">
+                                    <div>
+                                        <p style="font-size:12px !important; " class="casting-btn">View project</p>
+
+                                    </div>
+                                    <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Creator Card -->
+                </div>
+            </div><!--Slider Start-->
+            <div class="swiper-slide">
+                <div class="auction_card_style__one">
+                    <!--Creator Card Start On Casting-->
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                            <div class="jackpot-creator__thumb">
+                                <div class="jackpot-creator__cover">
+                                    <div class="card__image">
+                                        <div class="creator-card-video">
+                                            <div class="youtube-player" data-id="kjEVd06PVjg">
+                                                <a href="https://youtu.be/kjEVd06PVjg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__actions">
+
+                                    <div class="avater__group">
+                                        <img src="https://yt3.googleusercontent.com/ytc/AL5GRJUkafjDyXL01zFVUeE8Uc36E74VLnwvEwaHB6R5dg=s176-c-k-c0x00ffffff-no-rj"
+                                            alt="">
+                                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jackpot-creator__disc">
+                                <h2 class="jackpot-creator__title"><a href="project_detail_a.html">JJJ Studio</a>
+                                </h2>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+
+                                    </div>
+                                </div>
+
+                                <div class="raised-amount">
+                                    <h1>Raised 60% (24 casters)</h1>
+                                    <h2>100,000 Jball</h2>
+                                </div>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>On casting</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                        <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Mission</p>
+                                        <p class="youtube-p">15 videos (monthly)</p>
+
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__btns">
+                                    <div>
+                                        <p style="font-size:12px !important; " class="casting-btn">View project</p>
+
+                                    </div>
+                                    <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Creator Card -->
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ===============  tranding auction style end =============== -->
+<!-- ===============  jackpot-creator grid style start =============== -->
+<div class="jackpot-creator_grid_style__three bg-body section_gap_y_bottom__5">
+    <div class="container">
+        <div class="row gy-4 align-items-center flex-direction">
+            <div class="col-xl-2 col-lg-3 d-flex justify-content-between ">
+                <div class="jackpot-creator_grid__title">
+                    <span class="sub-header-2">Exclusive Assets</span>
+                    <h4 class="section_title__2">Explore Creators</h4>
+                </div>
+            </div>
+
+            <div class="col-xl-10 col-lg-9 d-flex justify-content-center flex-wrap gap-3">
+                
+
+                <ul class="jackpot-creator_nav_pills__two nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="jackpot-creator_pill_1" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_1"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_1" aria-selected="true">
+                           <span>All</span>
+                    </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="jackpot-creator_pill_2" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_2"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_2" aria-selected="true">
+                            <span>Gaming</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="jackpot-creator_pill_3" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_3"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_3" aria-selected="true">
+                            <span>Mukbang</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="jackpot-creator_pill_4" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_4"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_4" aria-selected="true">
+                            <span>Music</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="jackpot-creator_pill_5" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_5"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_5" aria-selected="true">
+                            <span>Comedy</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="jackpot-creator_pill_6" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_6"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_6" aria-selected="true">
+                            <span>Animation</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="jackpot-creator_pill_7" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_7"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_7" aria-selected="true">
+                            <span>Beauty</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="jackpot-creator_pill_8" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_8"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_8" aria-selected="true">
+                            <span>Fashion</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="jackpot-creator_pill_9" data-bs-toggle="pill" data-bs-target="#jackpot-creator_tab_9"
+                            type="button" role="tab" aria-controls="jackpot-creator_tab_9" aria-selected="true">
+                            <span>Life Style</span>
+                        </button>
+                    </li>
+
+                    
+    
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content pt-50" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="jackpot-creator_tab_1" role="tabpanel" aria-labelledby="jackpot-creator_pill_1">
+               <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                 <!--Creator Card Start On Project-->  
+               
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="HbwpcVpcMq0">
+                    <a href="https://youtu.be/HbwpcVpcMq0"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.googleusercontent.com/nOYELJeVijoff14BatQxlNfDN7fwebnx8RF_iLmtuwlybvx9cDo_Bk7c0z3zbBMwy6Bz6o_jsQ=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title">신입사원 탐</h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 100% (61 Casters) </h1>
+                    <h2>321,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On project</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Revenue distribution rate</p>
+                            <p class="youtube-p">Creator 70%  Caster 30%</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Mission</p>
+                            <p  class="youtube-p">15 videos (monthly)</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Status</p>
+                            <p  class="youtube-p">36 Videos, 120K Views</p>
+                            <p  class="youtube-p">Subscribers: +132  </p>
+                            <div class="revenue">
+                               <div class="project-revenue-alignment">
+                               <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                   <h6>Project revenue</h6>
+                                   <h5>642,000 JB</h5>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                   
+                    <!--Creator Card -->
+                    <!--Creator Card Start On Casting-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="h5W8RhjeBGY">
+                    <a href="https://youtu.be/h5W8RhjeBGY"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.googleusercontent.com/CoKMtaREFzvZyTLOKw-Z0-Yg18EpRISYCEciw904ha8215qcSzPLI30KaSn2WO18i0VlSB6teA=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">Errdal</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 60% (24 casters) </h1>
+                    <h2>100,000 Jball </h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                        <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On casting</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Mission</p>
+                            <p class="youtube-p">15 videos (monthly)</p>
+                            
+                        </div>
+                        </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    </div>
+                    <!--Creator Card -->  
+                     <!--Creator Card Start On Project-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="nOilbvKIyLE">
+                    <a href="https://youtu.be/nOilbvKIyLE"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.ggpht.com/RWTNEbCbb132tpLsmCdbvsUsGTj3viJGgHMVzmEHU7VygQZ2mAnEKZCGt4o0m21-rloxjyOvxx8=s48-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">SANGHEUM</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 100% (61 Casters) </h1>
+                    <h2>321,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On project</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Revenue distribution rate</p>
+                            <p class="youtube-p">Creator 70%  Caster 30%</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Mission</p>
+                            <p  class="youtube-p">15 videos (monthly)</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Status</p>
+                            <p  class="youtube-p">36 Videos, 120K Views</p>
+                            <p  class="youtube-p">Subscribers: +132  </p>
+                            <div class="revenue">
+                               <div class="project-revenue-alignment">
+                               <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                   <h6>Project revenue</h6>
+                                   <h5>642,000 JB</h5>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                    <!--Creator Card --> 
+                   <!--Creator Card Start On Casting-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="kjEVd06PVjg">
+                    <a href="https://youtu.be/kjEVd06PVjg"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.googleusercontent.com/ytc/AL5GRJUkafjDyXL01zFVUeE8Uc36E74VLnwvEwaHB6R5dg=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">JJJ Studio</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 60% (24 casters)</h1>
+                    <h2>100,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                        <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On casting</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Mission</p>
+                            <p class="youtube-p">15 videos (monthly)</p>
+                            
+                        </div>
+                        </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    </div>
+                    <!--Creator Card --> 
+                    <!--Creator Card Start On Project-->  
+               
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="d0tzF_XpsWM">
+                    <a href="https://youtu.be/d0tzF_XpsWM"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.googleusercontent.com/ytc/AL5GRJVzGCh1VmLUqJgl4VlHnWXW60PQ47_aKJ7ZmJgjphk=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title">TURKO MUSIC</h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 100% (61 Casters) </h1>
+                    <h2>321,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On project</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Revenue distribution rate</p>
+                            <p class="youtube-p">Creator 70%  Caster 30%</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Mission</p>
+                            <p  class="youtube-p">15 videos (monthly)</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Status</p>
+                            <p  class="youtube-p">36 Videos, 120K Views</p>
+                            <p  class="youtube-p">Subscribers: +132  </p>
+                            <div class="revenue">
+                               <div class="project-revenue-alignment">
+                               <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                   <h6>Project revenue</h6>
+                                   <h5>642,000 JB</h5>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                   
+                    <!--Creator Card -->
+                    <!--Creator Card Start On Project-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="UXElnBDoDIM">
+                    <a href="https://youtu.be/UXElnBDoDIM"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.ggpht.com/ng7kia9144R84Ue4d1wPHLgZU3LJZ_Wg1fXVrEsSCynDSWkU4uYKAWqBfYxo27WLj8xrZto6tw=s48-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">KOREA MANIA</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 100% (61 Casters) </h1>
+                    <h2>321,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On project</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Revenue distribution rate</p>
+                            <p class="youtube-p">Creator 70%  Caster 30%</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Mission</p>
+                            <p  class="youtube-p">15 videos (monthly)</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Status</p>
+                            <p  class="youtube-p">36 Videos, 120K Views</p>
+                            <p  class="youtube-p">Subscribers: +132  </p>
+                            <div class="revenue">
+                               <div class="project-revenue-alignment">
+                               <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                   <h6>Project revenue</h6>
+                                   <h5>642,000 JB</h5>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                    <!--Creator Card -->
+                    <!--Creator Card Start On Casting-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="_kmdWtFRYss">
+                    <a href="https://youtu.be/_kmdWtFRYss"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.googleusercontent.com/4BfOd2Xc5xrv1BGmTR8dRw-7xqbtVWWdibxjU5gAQC4mBXH5sOgNQXhW8RucWzkslzsCuZusFA=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">쏭이TV</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 60% (24 casters)</h1>
+                    <h2>100,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                        <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On casting</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Mission</p>
+                            <p class="youtube-p">15 videos (monthly)</p>
+                            
+                        </div>
+                        </div>
+                       <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    </div>
+                    <!--Creator Card -->  
+                    <!--Creator Card Start On Project-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="9MGRv0akn_A">
+                    <a href="https://youtu.be/9MGRv0akn_A"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.googleusercontent.com/dW9NYgFDtlZuE78_yFlw3w_skUXLATyL2X_jSfGN-Zh0SFw8xF698cqQClOOwMZEqJEZuVAd=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">Berkoo</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 100% (61 Casters) </h1>
+                    <h2>321,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On project</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Revenue distribution rate</p>
+                            <p class="youtube-p">Creator 70%  Caster 30%</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Mission</p>
+                            <p  class="youtube-p">15 videos (monthly)</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Status</p>
+                            <p  class="youtube-p">36 Videos, 120K Views</p>
+                            <p  class="youtube-p">Subscribers: +132  </p>
+                            <div class="revenue">
+                               <div class="project-revenue-alignment">
+                               <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                   <h6>Project revenue</h6>
+                                   <h5>642,000 JB</h5>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <a href="project_detail_a.html" style="font-size:12px !important; "  class="casting-btn">View project</a>
+                        </a>
+                        </div>
+                         <a href="#" style="font-size:12px !important; " class="casting-btn">Youtube</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                    <!--Creator Card -->
+                    
+                     
+               </div>
+            </div>
+
+
+                                 <!--GAMiNG START-->
+
+            <div class="tab-pane fade" id="jackpot-creator_tab_2" role="tabpanel" aria-labelledby="jackpot-creator_pill_2">
+                <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                    
+                    <!--Creator Card Start-->  
+                
+                
+                    <!--Creator Card --> 
+
+
+
+
+               </div>
+            </div>
+             <!--GAMiNG END-->
+             <!--Mukbang Start-->
+            <div class="tab-pane fade" id="jackpot-creator_tab_3" role="tabpanel" aria-labelledby="jackpot-creator_pill_3">
+                <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                    
+                    <!--Creator Card Start-->  
+                
+                    <!--Creator Card -->
+               </div>
+            </div>
+            <!--Music Start-->
+            <div class="tab-pane fade" id="jackpot-creator_tab_4" role="tabpanel" aria-labelledby="jackpot-creator_pill_4">
+                <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                  
+                     <!--Creator Card Start-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="d0tzF_XpsWM">
+                    <a href="https://youtu.be/d0tzF_XpsWM"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.ggpht.com/ytc/AMLnZu_YxQY-9tyVCfNd_NEEN-JG2ES7Kr76CY5XL0eQN-0=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">Turko Music </a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                        
+                        </div>
+                        </div>
+                        
+                        <div class="raised-amount">
+                        <h1>Raised 100% (61 Casters) </h1>
+                        <h2>321,000 Jball</h2>
+                        </div>
+                            <div class="jackpot-creator__title-1">
+                                <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                <p>On project</p>
+                                <div class="dividing-line"></div>
+                                <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                <div class="dividing-line"></div>
+                                <p class="youtube-p-dr">Revenue distribution rate</p>
+                                <p class="youtube-p">Creator 70%  Caster 30%</p>
+                                <div class="dividing-line"></div>
+                                <p  class="youtube-p-dr">Mission</p>
+                                <p  class="youtube-p">15 videos (monthly)</p>
+                                <div class="dividing-line"></div>
+                                <p  class="youtube-p-dr">Status</p>
+                                <p  class="youtube-p">36 Videos, 120K Views</p>
+                                <p  class="youtube-p">Subscribers: +132  </p>
+                                <div class="revenue">
+                                   <div class="project-revenue-alignment">
+                                   <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                       <h6>Project revenue</h6>
+                                       <h5>642,000 JB</h5>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            <div class="jackpot-creator__btns">
+                            <div>
+                            <a href="project_detail_a.html" style="font-size:12px !important; "  class="casting-btn">View project</a>
+                            </a>
+                            </div>
+                             <a href="#" style="font-size:12px !important; " class="casting-btn">Youtube</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <!--Creator Card -->
+                    <!--Creator Card Start On Casting-->
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                            <div class="jackpot-creator__thumb">
+                                <div class="jackpot-creator__cover">
+                                    <div class="card__image">
+                                        <div class="creator-card-video">
+                                            <div class="youtube-player" data-id="kjEVd06PVjg">
+                                                <a href="https://youtu.be/kjEVd06PVjg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__actions">
+
+                                    <div class="avater__group">
+                                        <img src="https://yt3.googleusercontent.com/ytc/AL5GRJUkafjDyXL01zFVUeE8Uc36E74VLnwvEwaHB6R5dg=s176-c-k-c0x00ffffff-no-rj"
+                                            alt="">
+                                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jackpot-creator__disc">
+                                <h2 class="jackpot-creator__title"><a href="project_detail_a.html">JJJ Studio</a>
+                                </h2>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+
+                                    </div>
+                                </div>
+
+                                <div class="raised-amount">
+                                    <h1>Raised 60% (24 casters)</h1>
+                                    <h2>100,000 Jball</h2>
+                                </div>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>On casting</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                        <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Mission</p>
+                                        <p class="youtube-p">15 videos (monthly)</p>
+
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__btns">
+                                    <div>
+                                        <p style="font-size:12px !important; " class="casting-btn">View project</p>
+
+                                    </div>
+                                    <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Creator Card -->
+                     <!--Creator Card Start On Project-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="nOilbvKIyLE">
+                    <a href="https://youtu.be/nOilbvKIyLE"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.ggpht.com/RWTNEbCbb132tpLsmCdbvsUsGTj3viJGgHMVzmEHU7VygQZ2mAnEKZCGt4o0m21-rloxjyOvxx8=s48-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">SANGHEUM</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 100% (61 Casters) </h1>
+                    <h2>321,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On project</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Revenue distribution rate</p>
+                            <p class="youtube-p">Creator 70%  Caster 30%</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Mission</p>
+                            <p  class="youtube-p">15 videos (monthly)</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Status</p>
+                            <p  class="youtube-p">36 Videos, 120K Views</p>
+                            <p  class="youtube-p">Subscribers: +132  </p>
+                            <div class="revenue">
+                               <div class="project-revenue-alignment">
+                               <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                   <h6>Project revenue</h6>
+                                   <h5>642,000 JB</h5>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                    <!--Creator Card --> 
+                    
+               </div>
+            </div>
+            <!--Comedy Start-->
+            <div class="tab-pane fade" id="jackpot-creator_tab_5" role="tabpanel" aria-labelledby="jackpot-creator_pill_5">
+                <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                    <!--Creator Card Start On Project-->
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                            <div class="jackpot-creator__thumb">
+                                <div class="jackpot-creator__cover">
+                                    <div class="card__image">
+                                        <div class="creator-card-video">
+                                            <div class="youtube-player" data-id="HbwpcVpcMq0">
+                                                <a href="https://youtu.be/HbwpcVpcMq0"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__actions">
+
+                                    <div class="avater__group">
+                                        <img src="https://yt3.googleusercontent.com/nOYELJeVijoff14BatQxlNfDN7fwebnx8RF_iLmtuwlybvx9cDo_Bk7c0z3zbBMwy6Bz6o_jsQ=s176-c-k-c0x00ffffff-no-rj"
+                                            alt="">
+                                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jackpot-creator__disc">
+                                <h2 class="jackpot-creator__title">신입사원 탐</h2>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+
+                                    </div>
+                                </div>
+
+                                <div class="raised-amount">
+                                    <h1>Raised 100% (61 Casters) </h1>
+                                    <h2>321,000 Jball</h2>
+                                </div>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>On project</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                        <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Revenue distribution rate</p>
+                                        <p class="youtube-p">Creator 70% Caster 30%</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Mission</p>
+                                        <p class="youtube-p">15 videos (monthly)</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Status</p>
+                                        <p class="youtube-p">36 Videos, 120K Views</p>
+                                        <p class="youtube-p">Subscribers: +132 </p>
+                                        <div class="revenue">
+                                            <div class="project-revenue-alignment">
+                                                <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                                    <h6>Project revenue</h6>
+                                                    <h5>642,000 JB</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__btns">
+                                    <div>
+                                        <p style="font-size:12px !important; " class="casting-btn">View project</p>
+
+                                    </div>
+                                    <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Creator Card -->
+                    
+                    
+               </div>
+            </div>
+
+
+               
+            <!--Animation TAB-6 START-->
+            <div class="tab-pane fade" id="jackpot-creator_tab_6" role="tabpanel" aria-labelledby="jackpot-creator_pill_6">
+                <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                    
+                    <!--Creator Card Start-->  
+                
+                    <!--Creator Card -->
+                                </div>
+                                </div>
+             <!--Beauty TAB-6 END-->
+               <!--Animation TAB-7 START-->
+            <div class="tab-pane fade" id="jackpot-creator_tab_7" role="tabpanel" aria-labelledby="jackpot-creator_pill_6">
+                <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                    
+                    <!--Creator Card Start-->  
+                <!--Creator Card Start On Casting-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="_kmdWtFRYss">
+                    <a href="https://youtu.be/_kmdWtFRYss"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.googleusercontent.com/4BfOd2Xc5xrv1BGmTR8dRw-7xqbtVWWdibxjU5gAQC4mBXH5sOgNQXhW8RucWzkslzsCuZusFA=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">쏭이TV</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 60% (24 casters)</h1>
+                    <h2>100,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                        <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On casting</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Mission</p>
+                            <p class="youtube-p">15 videos (monthly)</p>
+                            
+                        </div>
+                        </div>
+                       <div class="jackpot-creator__btns">
+                        <div>
+                        <p style="font-size:12px !important; "  class="casting-btn">View project</p>
+                        
+                        </div>
+                         <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    </div>
+                    <!--Creator Card --> 
+                    <!--Creator Card -->
+                                </div>
+                                </div>
+             <!--TAB-7 END-->
+             <!--Fashion TAB-8 START-->
+            <div class="tab-pane fade" id="jackpot-creator_tab_8" role="tabpanel" aria-labelledby="jackpot-creator_pill_8">
+                <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                    <!--Creator Card Start-->  
+                
+                    <!--Creator Card -->
+                    </div>
+                    </div>
+             <!-- Fashion TAB-8 END-->
+
+             <!--Life style TAB-9 START-->
+            <div class="tab-pane fade" id="jackpot-creator_tab_9" role="tabpanel" aria-labelledby="jackpot-creator_pill_9">
+                <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 gy-4">
+                    <!--Creator Card Start On Casting-->
+                    <div class="col">
+                        <div class="jackpot-creator_card_style__two">
+                            <div class="jackpot-creator__thumb">
+                                <div class="jackpot-creator__cover">
+                                    <div class="card__image">
+                                        <div class="creator-card-video">
+                                            <div class="youtube-player" data-id="h5W8RhjeBGY">
+                                                <a href="https://youtu.be/h5W8RhjeBGY"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__actions">
+
+                                    <div class="avater__group">
+                                        <img src="https://yt3.googleusercontent.com/CoKMtaREFzvZyTLOKw-Z0-Yg18EpRISYCEciw904ha8215qcSzPLI30KaSn2WO18i0VlSB6teA=s176-c-k-c0x00ffffff-no-rj"
+                                            alt="">
+                                        <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jackpot-creator__disc">
+                                <h2 class="jackpot-creator__title"><a href="project_detail_a.html">Errdal</a></h2>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                                        <p class="youtube-p">436 K subscribers / 376K views</p>
+                                        <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+
+                                    </div>
+                                </div>
+
+                                <div class="raised-amount">
+                                    <h1>Raised 60% (24 casters) </h1>
+                                    <h2>100,000 Jball </h2>
+                                </div>
+                                <div class="jackpot-creator__title-1">
+                                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                                        <p>On casting</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                                        <p class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                                        <div class="dividing-line"></div>
+                                        <p class="youtube-p-dr">Mission</p>
+                                        <p class="youtube-p">15 videos (monthly)</p>
+
+                                    </div>
+                                </div>
+                                <div class="jackpot-creator__btns">
+                                    <div>
+                                        <p style="font-size:12px !important; " class="casting-btn">View project</p>
+
+                                    </div>
+                                    <p style="font-size:12px !important; " class="casting-btn">Youtube</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Creator Card -->
+                    <!--Creator Card Start On Project-->  
+                <div class="col">
+                    <div class="jackpot-creator_card_style__two">
+                    <div class="jackpot-creator__thumb">
+                    <div class="jackpot-creator__cover">
+                    <div class="card__image">
+                    <div class="creator-card-video">
+                    <div class="youtube-player" data-id="9MGRv0akn_A">
+                    <a href="https://youtu.be/9MGRv0akn_A"></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__actions">
+                    
+                    <div class="avater__group">
+                    <img src="https://yt3.googleusercontent.com/dW9NYgFDtlZuE78_yFlw3w_skUXLATyL2X_jSfGN-Zh0SFw8xF698cqQClOOwMZEqJEZuVAd=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <img src="assets/images/icons/tick-yellow-x.svg" alt="" class="user__tick">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jackpot-creator__disc">
+                    <h2 class="jackpot-creator__title"><a href="project_detail_a.html">Berkoo</a></h2>
+                    <div class="jackpot-creator__title-1">
+                    <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                    <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                    <p class="youtube-p">436 K subscribers / 376K views</p>
+                    <p>I wanna be a famous youtuber <span style="margin-left:5px;"></span></p>
+                    
+                    </div>
+                    </div>
+                    
+                    <div class="raised-amount">
+                    <h1>Raised 100% (61 Casters) </h1>
+                    <h2>321,000 Jball</h2>
+                    </div>
+                        <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>On project</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p">Contract period:2023.02.01~2028.01.31</p>
+                            <p  class="youtube-p">Sponsored period:2023.02.01~2024.01.31</p>
+                            <div class="dividing-line"></div>
+                            <p class="youtube-p-dr">Revenue distribution rate</p>
+                            <p class="youtube-p">Creator 70%  Caster 30%</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Mission</p>
+                            <p  class="youtube-p">15 videos (monthly)</p>
+                            <div class="dividing-line"></div>
+                            <p  class="youtube-p-dr">Status</p>
+                            <p  class="youtube-p">36 Videos, 120K Views</p>
+                            <p  class="youtube-p">Subscribers: +132  </p>
+                            <div class="revenue">
+                               <div class="project-revenue-alignment">
+                               <div class="project revenue-border-1"> <!-- 월별 누적 수익-->
+                                   <h6>Project revenue</h6>
+                                   <h5>642,000 JB</h5>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="jackpot-creator__btns">
+                        <div>
+                        <a href="project_detail_a.html" style="font-size:12px !important; "  class="casting-btn">View project</a>
+                        </a>
+                        </div>
+                         <a href="#" style="font-size:12px !important; " class="casting-btn">Youtube</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                    <!--Creator Card -->
+
+                    </div>
+                    </div>
+             <!-- TAB-8 END-->
+
+        </div>
+    </div>
+    
+</div>
+<!-- ===============  jackpot-creator grid style end =============== -->
+
+<!-- ===============  artist style start =============== -->
+<div class="artists_style__one bg-body section_gap_y_bottom__1">
+    <div class="container">
+        <div class="row gy-4 align-items-end">
+            <div class="col-lg-6">
+                <h2 class="section_title__2">Our Creators</h2>
+               
+            </div>
+            <div class="col-lg-6 d-flex justify-content-lg-end align-items-center">
+                <div class="slider__nav d-flex mr-3">
+                    <div class="artist__prev navigation_btn_2 btn__prev mr-1">
+                        <i class="bi bi-chevron-left"></i>
+                    </div>
+                    <div class="artist__next navigation_btn_2 btn__next">
+                        <i class="bi bi-chevron-right"></i>
+                    </div>
+                </div>
+                <a href="creators.html" class="btn-rounded-v3">View all <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.25 6H11.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6.25 1L11.25 6L6.25 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></a>
+            </div>
+        </div>
+        <div class="row pt-50">
+            <div class="swiper artist_slider__one">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="artist_card_style__one">
+                            <div class="artist__thumb">
+                                <div class="artist__cover">
+                                    <img src="assets/images/artists/sc-one.png" alt="">
+                                </div>
+                                <div class="artist__avater">
+                                    <img src="assets/images/artists/sa-one.png" alt="">
+                                </div>
+                            </div>
+                            <div class="artist__disc">
+                                <h6 class="artist__name"><a href="project_detail_a.html">Clear Sky</a></h6>
+                                <button class="btn-follow">
+                                   My Chanel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="artist_card_style__one">
+                            <div class="artist__thumb">
+                                <div class="artist__cover">
+                                    <img src="assets/images/artists/sc-two.png" alt="">
+                                </div>
+                                <div class="artist__avater">
+                                    <img src="assets/images/artists/sa-two.png" alt="">
+                                </div>
+                            </div>
+                            <div class="artist__disc">
+                                <h6 class="artist__name"><a href="project_detail_a.html">Bright Wave</a></h6>
+                                <button class="btn-follow">
+                                   My Chanel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="artist_card_style__one">
+                            <div class="artist__thumb">
+                                <div class="artist__cover">
+                                    <img src="assets/images/artists/sc-three.png" alt="">
+                                </div>
+                                <div class="artist__avater">
+                                    <img src="assets/images/artists/sa-three.png" alt="">
+                                </div>
+                                
+                            </div>
+                            <div class="artist__disc">
+                                <h6 class="artist__name"><a href="project_detail_a.html">Golden Field</a></h6>
+                                <button class="btn-follow">
+                                   My Chanel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="artist_card_style__one">
+                            <div class="artist__thumb">
+                                <div class="artist__cover">
+                                    <img src="assets/images/artists/sc-four.png" alt="">
+                                </div>
+                                <div class="artist__avater">
+                                    <img src="assets/images/artists/sa-four.png" alt="">
+                                </div>
+                               
+                            </div>
+                            <div class="artist__disc">
+                                <h6 class="artist__name"><a href="project_detail_a.html">Emerald Grove</a></h6>
+                                <button class="btn-follow">
+                                   My Chanel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="artist_card_style__one">
+                            <div class="artist__thumb">
+                                <div class="artist__cover">
+                                    <img src="assets/images/artists/sc-five.png" alt="">
+                                </div>
+                                <div class="artist__avater">
+                                    <img src="assets/images/artists/sa-five.png" alt="">
+                                </div>
+                                
+                            </div>
+                            <div class="artist__disc">
+                                <h6 class="artist__name"><a href="project_detail_a.html">Ocean Breeze</a></h6>
+                                <button class="btn-follow">
+                                   My Chanel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="artist_card_style__one">
+                            <div class="artist__thumb">
+                                <div class="artist__cover">
+                                    <img src="assets/images/artists/sc-six.png" alt="">
+                                </div>
+                                <div class="artist__avater">
+                                    <img src="assets/images/artists/sa-six.png" alt="">
+                                </div>
+                            </div>
+                            <div class="artist__disc">
+                                <h6 class="artist__name"><a href="project_detail_a.html">Midnight Star</a></h6>
+                                <button class="btn-follow">
+                                   My Chanel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- ===============  artist style end =============== -->
+
+<!-- ===============  community style start =============== -->
+<div class="community_style_one section_gap_y_bottom__1 section_gap_y_top__1">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h2 class="section_title__2">Join the Community</h2>
+                <p class="disc-text pt-2">Learn more about Jackpotcast, chat with the team, others in the community,and have your say in shaping.</p>
+
+                    <ul class="community_social__links d-flex flex-wrap justify-content-center">
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="#"><i class="bi bi-github"></i></a></li>
+                        <li><a href="#"><i class="bi bi-discord"></i></a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div class="row section_gap_y_top__1 jackpot-creator_process__wrap justify-content-center gy-4">
+            <div class="col-lg-3 col-sm-6">
+                <div class="jackpot-creator_process__card">
+                    <div class="process__icon">
+                        <img src="assets/images/icons/process-doc.svg" alt="">
+                    </div>
+                    <h5>Create your Profile</h5>
+                    <p>Create your Profile and casting your best creator.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="jackpot-creator_process__card">
+                    <div class="process__icon">
+                        <img src="assets/images/icons/process-card.svg" alt="">
+                    </div>
+                    <h5>Set Up Your Wallet</h5>
+                    <p>Easily connect with phantom wallet</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="jackpot-creator_process__card">
+                    <div class="process__icon">
+                        <img src="assets/images/icons/process-sell.svg" alt="">
+                    </div>
+                    <h5>Find your Best creator</h5>
+                    <p>make the investment they want and earn your money</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="jackpot-creator_process__card">
+                    <div class="process__icon">
+                        <img src="assets/images/icons/process-add.svg" alt="">
+                    </div>
+                    <h5>Casting your creator.</h5>
+                    <p>Get the content of your dreams and earn money.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===============  community style end =============== -->
+
+<!-- ===============  blog style start =============== -->
+<div class="blog_style__one bg-body section_gap_y_bottom__1">
+    <div class="container">
+        <div class="row gy-4 align-items-end">
+            <div class="col-md-7">
+                <span class="sub-header-2">Most Popular</span>
+                <h2 class="section_title__2">Popular Blog Post</h2>
+            </div>
+            <div class="col-md-5 text-md-end">
+                <p class="btn-rounded-v3">View all post</p>
+            </div>
+        </div>
+
+        <div class="row pt-50">
+            <div class="col-lg-12">
+                <div class="blog_card_style__one">
+                    <div class="blog__body">
+                       
+                        <div class="blog_disc">
+                            <ul class="blog_meta">
+                                <li class="blog__tag"> <a href="blog_1.html">MCN Business</a> </li>
+                                <li class="blog__writer"><a href="blog_1.html">By TAM CEVZET</a></li>
+                                <li class="blog__date">December 13, 2022</li>
+                            </ul>
+                            <h5 class="blog__title"><a href="blog_1.html">Jackpotcast MCN business platform acquired
+                                technology guarantee of 500 million won
+                                ($400,000) from Korea Technology Finance Corporation in 2021</a></h5>
+                        </div>
+                    </div>
+                    <a class="blog__btn" href="blog_1.html">
+                        <svg width="7" height="14" viewBox="0 0 7 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1 12.9658L5.59317 8.37172C6.13561 7.82916 6.13561 6.94135 5.59317 6.39879L1 1.80469"
+                                stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="blog_card_style__one">
+                    <div class="blog__body">
+                      
+                        <div class="blog_disc">
+                            <ul class="blog_meta">
+                                <li class="blog__tag"> <a href="blog_2.html">Metaverse</a> </li>
+                                <li class="blog__writer"><a href="blog_2.html">By TAM CEVZET</a></li>
+                                <li class="blog__date">June 28, 2022</li>
+                            </ul>
+                            <h5 class="blog__title"><a href="blog_2.html">Meeting with the creators of the JACKPOTCAST</a></h5>
+                        </div>
+                    </div>
+                    <a class="blog__btn" href="blog_2.html">
+                        <svg width="7" height="14" viewBox="0 0 7 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1 12.9658L5.59317 8.37172C6.13561 7.82916 6.13561 6.94135 5.59317 6.39879L1 1.80469"
+                                stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="blog_card_style__one mb-0">
+                    <div class="blog__body">
+                     
+                        <div class="blog_disc">
+                            <ul class="blog_meta">
+                                <li class="blog__tag"> <a href="blog_3.html">Private blockchain</a> </li>
+                                <li class="blog__writer"><a href="blog_3.html">By TAM CEVZET</a></li>
+                                <li class="blog__date">February 13, 2023</li>
+                            </ul>
+                            <h5 class="blog__title"><a href="blog_3.html">Jackpotcast held a meetup event in Seoul on March 8, 2023</a></h5>
+                        </div>
+                    </div>
+                    <a class="blog__btn" href="blog_3.html">
+                        <svg width="7" height="14" viewBox="0 0 7 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1 12.9658L5.59317 8.37172C6.13561 7.82916 6.13561 6.94135 5.59317 6.39879L1 1.80469"
+                                stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===============  blog style end =============== -->
+
+<!-- ===============  footer style start =============== -->
+<div class="footer_style__one bg-body-2 varient-2 section_gap_y_top__1">
+<div class="container">
+    <div class="row gy-4">
+        <div class="col-lg-3">
+            <div class="footer__about">
+                <div class="footer__logo">
+                    <a href="index.html" class="for-dark"><img src="assets/images/logo.svg" alt=""></a>
+                    <a href="index.html" class="for-light"><img src="assets/images/logo-v2.png" alt=""></a>
+                </div>
+                <p>We make creators and investors realize the value of the sharing economy through blockchain-based virtual currency.
+
+                </p>
+                <h5>Language</h5>
+
+                <div class="languege__dropdown varient-3">
+                    <button>
+                        <img src="assets/images/icons/flag-us.png" alt=""> English
+                    </button>
+                    <ul class="languege__list">
+                        <li><a href="index.html"> <img src="assets/images/icons/flag-us.png" alt=""> English</a></li>
+                        <li><a href="index.html"> <img src="assets/images/icons/flag-us.png" alt=""> English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-6 d-flex justify-content-lg-center">
+            <div class="footer__widget varient-2">
+                <h6 class="footer_widget__title">Other Platforms</h6>
+
+                <ul class="footer_widget__links">
+                    <li><p class="foter_w_l">Jackpotcast Metaverse</a></li>
+                    <li><p class="foter_w_l">Jackpotcast Tv</a></li>
+                    <li><p class="foter_w_l">Jackpotcast Nft Market</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-6 d-flex justify-content-lg-center ">
+            <div class="footer__widget varient-2">
+                <h6 class="footer_widget__title">Company</h6>
+
+                <ul class="footer_widget__links">
+                   
+                    <li><a href="connect_wallet.html">Connect wallet</a></li>
+                    <li><a href="blog_1.html">Our blog </a></li>
+                    <li><a href="creators.html">Creators</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="footer__widget newslatter__widget">
+                <h6 class="footer_widget__title">Join Newsletter</h6>
+                <!-- <form action="#" mJballod="POST" id="footer_form__one">
+                    <div class="footer_newslatter__one style__three mt-2">
+                        <input type="text" placeholder="Your Email">
+                        <button type="submit"
+                            class="form__submit submit-btn-one btn-rounded-v1">Subscribe</button>
+                    </div>
+                </form> -->
+
+                <ul class="footer_social__links d-flex style__three">
+                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                    <li><a href="#"><i class="bi bi-github"></i></a></li>
+                    <li><a href="#"><i class="bi bi-discord"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row footer__copyright has-border-top varient-2">
+        <div class="col-lg-12">
+            <p class="text-center">Copyright©2022/ <a href="index.html">JACKPOTCAST</a></p>
+        </div>
+    </div>
+</div>
+</div>
+<!-- ===============  footer style end =============== -->
+<script type='text/javascript' src='assets/js/yt_video_script.js' id='theme-script-js'></script>
+
+ <!--Custom jsvascript and Plugins -->
+
+<!-- jquery latest -->
+<script src="assets/js/jquery-3.6.0.min.js" ></script>
+<!-- latest bootstarp bundle -->
+<script src="assets/js/bootstrap.bundle.min.js" ></script>
+<!-- swiper bundle -->
+<script src="assets/js/swiper-bundle.min.js" ></script>
+<!-- wow js -->
+<script src="assets/js/wow.min.js" ></script>
+<!-- nice select -->
+<script src="assets/js/jquery.nice-select.min.js" ></script>
+<!-- jquery countdown -->
+<script src="assets/js/jquery.countdown.js"  ></script>
+<!-- dropzone js -->
+<script src="assets/js/dropzone.min.js" ></script>
+<!-- fancybox -->
+<script src="assets/js/jquery.fancybox.min.js" ></script>
+<!-- Custom JavaScript -->
+<script async src="assets/js/main.js"></script>
+</body>
+
+</html>

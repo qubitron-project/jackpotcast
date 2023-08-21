@@ -1,0 +1,952 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JACKPOTCAST &#8211; Global open MCN Business platform</title>
+
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- favicon -->
+   <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="20x20">
+
+   <!-- fancybox -->
+   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+   <!-- bootstarp icon -->
+   <link rel="stylesheet" href="assets/css/dropzone.min.css">
+   <!-- bootstarp icon -->
+   <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+   <!-- animate Css -->
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <!-- Swiper bundle Css -->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <!--Commen-box-->
+   <link rel="stylesheet" href="assets/css/comment-box.css">
+   <!-- DropDown Profile -->
+   <script src="https://use.fontawesome.com/c46d9607cc.js"></script><link rel="stylesheet" href="assets/css/dropdown-menu.css">
+   <!-- DropDown Profile END -->
+
+   <link rel="stylesheet" href="assets/css/globals.css">
+   <!--Platform Style-->
+   <link rel="stylesheet" href="assets/css/platform-style.css">
+   
+
+</head>
+   
+   <body class="theme-light-active">
+   
+        <!-- mobil__searchbar style -->
+        <div class="mobil__searchbar" id="mobilSearch">
+           <div class="input__wrapper">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-lg-6">
+                           <div class="pb-3 d-flex align-items-center justify-content-between"><h5>What are you looking for?</h5> <span class="close__search" id="closeSearch">Close Popup</span></div>
+                           <form action="#">
+                               <div class="d-flex">
+                                   <input type="text" placeholder="Search Creators, Project etc.">
+                                   <button class="submit-v1 ml-2">Search</button>
+                               </div>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   
+       <!-- ===============  header area start =============== -->
+       <header>
+           <div class="header-area header-defult header_style__one bg-body">
+               <div class="nav-container">
+                   <div class="row justify-content-between">
+                       <div class="col-xl-4 col-lg-4 col-2 align-items-center d-flex">
+                           <div class="nav-logo logo-switch d-flex justify-content-between align-items-center glaxy-fold-logo">
+                               <a class="logo-dark" href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                               <a class="logo-light" href="index.html"><img src="assets/images/logo-v2.png" alt="logo"></a>
+                           </div>
+                           <div class="nav-search-style-one w-100 d-xl-block d-none">
+                               <span class="search__icon">
+                                   <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path
+                                           d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z"
+                                           stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                           stroke-linejoin="round"></path>
+                                       <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" stroke-width="1.5"
+                                           stroke-linecap="round" stroke-linejoin="round"></path>
+                                   </svg>
+                               </span>
+                               <input type="text" placeholder="Search Creators,Project etc.">
+                           </div>
+                       </div>
+                       <div class="col-xxl-8 col-lg-8 col-10  d-flex justify-content-end">
+                           <nav class="main-nav mr-2">
+                               <div class="inner-logo d-xl-none text-center pt-4">
+                                   <a href="index.html#" class="for-dark"><img src="assets/images/logo.svg" alt=""></a>
+                                   <a href="index.html#" class="for-light"><img src="assets/images/logo-v2.png" alt=""></a>
+                               </div>
+                               <ul>
+                                   <li><a href="about.html">About</a></li>
+                                   <li><a href="create_project.html">Create Your Project</a></li>
+                                   <li><a href="contact.html">Contact</a></li>
+   
+                               </ul>
+   
+                               <div class="d-xl-none d-inline-flex flex-column gap-3 px-3 mt-4">
+                                   <a href="connect_wallet.html" class="btn-rounded-v1">
+                                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M2.34973 10.7158L10.716 2.34961" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M7.37085 12.3959L8.21097 11.5558" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M9.25537 10.5125L10.9286 8.83925" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M2.11995 6.76712L6.76864 2.11844C8.25285 0.634221 8.99496 0.62722 10.4652 2.09744L13.9027 5.53494C15.3729 7.00515 15.3659 7.74726 13.8817 9.23148L9.233 13.8802C7.74878 15.3644 7.00667 15.3714 5.53645 13.9012L2.09895 10.4637C0.628736 8.99345 0.628736 8.25834 2.11995 6.76712Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M0.998901 15H15.001" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                           </svg>
+                                       <span> Connect Wallet</span>
+                                   </a>
+                               </div>
+                           </nav>
+                           <div class="nav-actions d-flex align-items-center">
+                               <div class="dark-light-konum">
+   
+                               <label class="theme-switch-one style__one mr-2">
+                                   <input type="checkbox" id="slider" class="check-status">
+                                   <span class="slider round"></span>
+                               </label>
+                           </div>
+                               <div class="arama-konum">
+                               <button type="button" class="nav_search__icon mr-2 d-block d-xl-none mr-2 style__two" id="navSearch">
+                                   <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path
+                                           d="M8.26847 16.0378C12.2827 16.0378 15.5369 12.7834 15.5369 8.7689C15.5369 4.7544 12.2827 1.5 8.26847 1.5C4.2542 1.5 1 4.7544 1 8.7689C1 12.7834 4.2542 16.0378 8.26847 16.0378Z"
+                                           stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                           stroke-linejoin="round"></path>
+                                       <path d="M17.0002 17.5L13.4023 13.9025" stroke="currentColor" stroke-width="1.5"
+                                           stroke-linecap="round" stroke-linejoin="round"></path>
+                                   </svg>
+                               </button>
+                           </div>
+                               <!-- <div class="profile-switch-one mr-2">
+                                   <div class="profile-switch-avater">
+                                       <a href="investor_profile.html"><img src="assets/images/profil-avater.png" alt=""></a>
+                                   </div>
+                               </div> -->
+                               <!-- Profil Deneme Start-->
+                               <div class="profile-switch-one mr-2">
+                                   <div class="profile-switch-avater">
+                                       <div class="action">
+                                           <div class="profile" onclick="menuToggle();">
+                                             <img src="assets/images/profil-avater.png" />
+                                           </div>
+                                           <div class="menu">
+                                               <div class="d-flex align-items-center">
+                                                   <span class="Jball__icon">
+                                                       <svg width="35" height="35" viewBox="0 1 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                           <style type="text/css">
+                                                               .st0{fill:#ffff !important;}
+                                                           </style>
+                                                           <g>
+                                                               <g>
+                                                                   <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"/>
+                                                                   <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"/>
+                                                               </g>
+                                                               <g>
+                                                                   <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                                       c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                                       c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"/>
+                                                                   <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                                       c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                                       c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                                       c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                                       C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"/>
+                                                               </g>
+                                                               <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                                                   C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"/>
+                                                           </g>
+                                                           </svg>
+                                                   </span>
+                                                   <div class="profil-jball">
+                                                   <h3></span> 23,453 <span style="color: #F01463;">JBall</span></h3>
+                                                   </div>
+                                               </div>
+                                             <ul>
+                                               
+                                               <li>
+                                                 <img src="./assets/images/icons/user.png" /><a href="investor_profile.html#">My profile</a>
+                                               </li>
+                                               <li>
+                                                 <img src="./assets/images/icons/edit.png" /><a href="profile_edit.html">Edit profile</a>
+                                               </li>
+                                               <li><img src="./assets/images/icons/question.png" /><a href="#">Help</a></li>
+                                               <li>
+                                                 <img src="./assets/images/icons/log-out.png" /><a href="login.html">Logout</a>
+                                               </li>
+                                               <li style="margin-top:20px;">
+                                                   <img src="./assets/images/icons/charge.png" /><a href="#">CHARGE<span style="color: #F01463;"> JBall</span></a>
+                                                 </li>
+                                             </ul>
+                                           </div>
+                                         </div>
+                                         <script>
+                                           function menuToggle() {
+                                             const toggleMenu = document.querySelector(".menu");
+                                             toggleMenu.classList.toggle("active");
+                                           }
+                                         </script>
+                                   </div>
+                               </div>
+                               <!-- Profil Deneme ENd-->
+   
+                           
+                               <div class="d-none d-md-block">
+                                   <a href="connect_wallet.html" class="btn-rounded-v1">
+                                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M2.34973 10.7158L10.716 2.34961" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M7.37085 12.3959L8.21097 11.5558" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M9.25537 10.5125L10.9286 8.83925" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M2.11995 6.76712L6.76864 2.11844C8.25285 0.634221 8.99496 0.62722 10.4652 2.09744L13.9027 5.53494C15.3729 7.00515 15.3659 7.74726 13.8817 9.23148L9.233 13.8802C7.74878 15.3644 7.00667 15.3714 5.53645 13.9012L2.09895 10.4637C0.628736 8.99345 0.628736 8.25834 2.11995 6.76712Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                           <path d="M0.998901 15H15.001" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                           </svg>
+                                       <span> Connect Wallet</span>
+                                   </a>
+                               </div>
+                               <div class="d-flex align-items-center ml-2">
+                                   <div class="mobile-menu d-flex ">
+                                       <a href="javascript:void(0)" class="hamburger d-block d-xl-none">
+                                           <span class="h-top"></span>
+                                           <span class="h-middle"></span>
+                                           <span class="h-bottom"></span>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </header>
+       <!-- ===============  header area end =============== -->
+
+    <!-- ===============  breadcrumb style start =============== -->
+    <div class="breadcrumb_style__two bg-body-2">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+                <a href="index.html" class="back__btn">
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 6.5H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M6 11.5L1 6.5L6 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <span>Back to home</span>
+                </a>
+                <div class="home-harita-konum">
+                <ul class="d-flex page__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Projec Details</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============  breadcrumb style end =============== -->
+
+    <div class="creator_details__style pt-60 bg-body-2 section_gap_y_bottom__11">
+        <div class="container">
+            <div class="row gx-7 gy-4 position-relative justify-content-between">
+                <div class="col-lg-7 col-sm-10 col-12">
+                    <div class="creator_details__img">
+                        <div class="card__image-project-pd">
+                            <div class="creator-card-video-project-pd">
+                            <div class="youtube-player-pd" data-id="d0tzF_XpsWM">
+                            <a href="https://youtu.be/d0tzF_XpsWM"></a>
+                            </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="creator_details__img project-profil-image">
+                        <img src="assets/images/creator/alex/hero-1.jpg" alt="">
+                    </div>
+                    <div class="creator_details__img project-profil-image">
+                        <img src="assets/images/creator/alex/hero-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="jackpot-creator__details">
+                        <div class="nd__header">
+                            <div class="nd__title">
+                                <!-- <span>Pizza Game Chef</span> -->
+                                <h3 class="jackpot-creator__title">Alex</h3>
+                            </div>
+                            
+                            <ul class="nd_header__actions">
+                                <li class="like__btn">
+                                    <button><svg width="14" height="12" viewBox="0 0 14 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6.6985 1.99765L6.99742 2.1692L7.2962 1.99743C7.50862 1.8753 7.71506 1.74828 7.92068 1.62176C8.31313 1.38029 8.70258 1.14066 9.12479 0.940522C9.75536 0.641607 10.2727 0.531212 10.6931 0.653546C13.0724 1.35159 13.8419 3.69978 13.1616 5.63257L13.1605 5.63569C12.6276 7.17674 11.1864 8.58658 9.76123 9.65606C8.42346 10.66 7.1915 11.297 6.99824 11.3948C6.80116 11.2956 5.58162 10.6685 4.25227 9.67217C2.83358 8.60886 1.38872 7.19725 0.835968 5.63284C0.154704 3.69814 0.922572 1.34971 3.29816 0.653425L3.29875 0.653253C3.73433 0.525103 4.24488 0.633423 4.86272 0.928388C5.27058 1.1231 5.64246 1.35367 6.02504 1.59088C6.24316 1.72612 6.46476 1.86351 6.6985 1.99765Z"
+                                                stroke="currentColor" stroke-width="1.2" />
+                                        </svg> <span>52</span></button>
+                                </li>
+                                <li>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="jackpot-creator__title-1">
+                            <div class="youtube-info youtube-text casting-btn jackpot-creator__title">
+                            <p>YOUTUBE <span style="margin-left:5px;" class="bi bi-youtube"></span></p>
+                            <p class="youtube-p">436 K subscribers / 376K views</p>
+                            </div>
+                            </div>
+                        <ul class="collections">
+                            
+                            <li class="creator">
+                              
+                                <div class="disc">
+                                    <span>Casting Title</span>
+                                    <h5>I wanna be a best creator</h5>
+                                </div>
+                            </li>
+                            <li class="creator">
+                               
+                                <div class="disc">
+                                    <span>Casting Period</span>
+                                    <h5 style="font-size:12px;">2023.02.01~2023.07.31</h5>
+                                </div>
+                            </li>
+                            
+                            
+                        </ul>
+
+                        <div class="nd_disc__text">
+                            <p>Hi my name is Alex, I love making and editing videos.I have been receiving special training on dance and acting for about 5 years.
+                                I believe that I will be famous on youtube in a short time by shooting funny short videos.</p>
+                        </div>
+                        
+                   
+                                  <!-- Status Start-->
+                    <div  style="border-radius: 12px !important;" class="accordion-item nd_single__block project__details mt-40">
+                        <h2 class="accordion-header sidebar__header" id="blockHeadingOne">
+                            <button style="border-radius: 12px !important; background-color: #FEDA03;" class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#block-collapseOne" aria-expanded="true">
+                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path style="color: black;" d="M5.16992 1H16.0032" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path style="color: black;" d="M5.16992 6H16.0032" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path style="color: black;" d="M5.16992 11H16.0032" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path style="color: black;" d="M1 1H1.01111" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path style="color: black;" d="M1 6H1.01111" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path style="color: black;" d="M1 11H1.01111" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+                                <span style="color: black; font-size: large;">Casting Details</span>
+                            </button>
+                        </h2>
+                        <div id="block-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="blockHeadingOne">
+                            
+                            
+                            <div class="accordion-body sidebar__body">
+                                <h5 class="project_dtitle">Casting Goals</h5>
+                                
+                                <div class="project">
+                                    <div class="avater">
+                                        <svg width="50" height="50" viewBox="0 1 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <style type="text/css">
+                                                .st0{fill:#F01463 !important;}
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"/>
+                                                    <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"/>
+                                                </g>
+                                                <g>
+                                                    <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                        c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                        c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"/>
+                                                    <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                        c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                        c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                        c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                        C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"/>
+                                                </g>
+                                                <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                                    C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"/>
+                                            </g>
+                                            </svg>
+                                    </div>
+                                    <h6>Casting Goal <br><span style="color: #FEDA03;">23,453</span> Jball</h6>
+                                   
+                                </div>
+                                <div class="project">
+                                    <div class="avater">
+                                        <svg width="50" height="50" viewBox="0 1 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <style type="text/css">
+                                                .st0{fill:#F01463 !important;}
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path class="st0" d="M2.3,5.4c0.3-0.6,0.9-1,1.7-1s1.3,0.4,1.7,1h0.1h1.8C7.1,3.8,5.7,2.6,4,2.6S0.9,3.8,0.5,5.4H2.3z"/>
+                                                    <path class="st0" d="M5.8,7.3H5.6C5.2,7.8,4.7,8.1,4,8.1S2.8,7.8,2.4,7.3H0.5C1,8.8,2.4,9.9,4,9.9s3-1.1,3.5-2.6H5.8z"/>
+                                                </g>
+                                                <g>
+                                                    <path class="st0" d="M4.2,6.7c0,0.1,0,0.2,0,0.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+                                                        c0,0-0.1-0.1-0.1-0.1L3.5,6.9L3,7.3l0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.3,0,0.4-0.1
+                                                        c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.2-0.3c0-0.1,0-0.3,0-0.4V4.8H4.2V6.7z"/>
+                                                    <path class="st0" d="M7.2,6.4c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+                                                        c0-0.1,0-0.1,0-0.2c0-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0H6.2v1.5h0.6c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0
+                                                        c0,0,0.1,0,0.1,0C7,7,7.1,7,7.1,7c0,0,0.1-0.1,0.1-0.1c0-0.1,0-0.1,0-0.2v0C7.2,6.6,7.2,6.5,7.2,6.4z M6.4,6.4h0.3
+                                                        c0.1,0,0.2,0,0.2,0.1C7,6.5,7,6.6,7,6.7c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1H6.4V6.4z M6.9,6.1C6.9,6.1,6.9,6.1,6.9,6.1
+                                                        C6.9,6.2,6.8,6.2,6.8,6.2c0,0-0.1,0-0.1,0H6.4V5.8h0.3c0.1,0,0.2,0,0.2,0.1C6.9,5.9,7,5.9,6.9,6.1C7,6,7,6.1,6.9,6.1z"/>
+                                                </g>
+                                                <path class="st0" d="M4,2.3c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C8,4,6.2,2.3,4,2.3z M4,10.1c-2,0-3.7-1.6-3.8-3.5H2V6H0.2
+                                                    C0.3,4,2,2.4,4,2.4c2.1,0,3.8,1.7,3.8,3.8S6.1,10.1,4,10.1z"/>
+                                            </g>
+                                            </svg>
+                                    </div>
+                                    <h6>Raised <br><span style="color: #FEDA03;">531</span> Jball</h6>
+                                   
+
+                                </div>
+                                <div class="nd__status">
+                                    <div class="position">
+                                        <div class="jackpot-creator__price">
+                                            <span style="color: #F01463;">Monthly Mission</span>
+                                            <div class="d-flex align-items-center">
+                                            <h4>12 Videos</span></h4>
+                                            </div>
+                                        </div>
+                                        <div class="jackpot-creator__price">
+                                            <br><span style="color: #F01463;">Contract Period</span>
+                                            <div class="d-flex align-items-center">
+                                               <h4>3 Years (2023.03.01~2026.02.28)</h4>
+                                            </div>
+                                        </div>
+                                        <div class="jackpot-creator__price">
+                                            <br><span style="color: #F01463;">Sponsored Period</span>
+                                            <div class="d-flex align-items-center">
+                                               <h4>1 Year (2023.03.01~2024.02.28)</h4>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="noti__text" bis_skin_checked="1">
+                                            <p>During this period, this creator will get paid monthly.</p>
+                                        </div>
+                                       
+                                    </div>
+                                    </div>
+                                
+
+
+                                <h5 style="color: #F01463;" class="project_dtitle"> Revenue Distribution Rate </h5>
+                                <div>
+                                <div class="project">
+                                   
+                                    <h6>Caster<br><span style="color: #FEDA03; font-size:37px;">35%</span></h6>
+                                   
+                                </div>
+                                <div class="project">
+                                  
+                                    <h6>Creator<br><span style="color: #FEDA03;font-size:37px;">65%</span></h6>
+                                   
+                                </div>
+                            </div>
+                            <div class="noti__text" bis_skin_checked="1">
+                                <p>During the contract period above, casters and creator will share revenue by revenue distribution rate. Commission fees are excluded by Jackpotcast within 15% and also casters will get staking interest income. </p>
+                            </div> 
+                                <div class="mission-1">
+                                <div class="col-lg-12 pt-3">
+                                        <div class="custom_input__style">
+                                            
+                                            <h5 style="color: #F01463; padding-bottom: 10px;" class="project_dtitle">Invest Your Jball
+                                            </h5>
+                                            
+                                            <input type="text" id="product__price" placeholder="The maximum amount that can be Joined is...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row gx-2 gy-2">
+                                     <!--castinger End-->
+                                     <div style="display: flex;justify-content: flex-end; margin-top: 50px;">
+                                        <a href="#" class="btn-rounded-v10">
+                                        
+                                            <span style="font-size:15px;padding: 6px !important;">Join Casting</span>
+                                        </a>
+
+                                    </div>
+                                    <!--START Join Casting 버튼 클릭시 Alert 창 -->
+                                    <div style="display:flex;flex-direction: column; padding-top: 20px; padding-bottom: 20px;" class="project">
+                                        
+                                        <h6>Would you like to Invest 1,254 Jballs?</h6>
+                                       
+                                        <div style="display:flex; padding-top: 12px;">
+                                            <div>
+                                        <button style="padding: 5px;border-radius: 5px; background-color: #ffffff; width: 70px;">Yes</button>
+                                    </div>
+                                    <div style="padding-left:12px;">
+                                        <button style="padding: 5px;border-radius: 5px; background-color: #ffffff; width: 70px;">No</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!--END Join Casting 버튼 클릭시 Alert 창 -->
+
+                                <!--팝업창 YES 버튼 클릭시 메세지 -->
+                                <div class="project">
+                                    <div class="avater">
+                                        <img src="assets/images/jackpot-creator/d-project.png" alt="" class="project__img">
+                                        <img src="assets/images/icons/tick-blue.svg" alt="" class="tick">
+                                    </div>
+                                    <h6>Alex TV <br> Thanks for your Casting ❤️❤️ (If Yes)</h6>
+                                    
+                                </div>
+                                <!--START ---팝업창 NO 버튼 클릭시 메세지 -->
+                                <div class="project">
+                                    <div class="avater">
+                                        <img src="assets/images/jackpot-creator/d-project.png" alt="" class="project__img">
+                                        <img src="assets/images/icons/tick-blue.svg" alt="" class="tick">
+                                    </div>
+                                    <h6>Alex TV <br> Woops 😭😭 Im waiting for you (If No)</h6>
+                                    
+                                </div>
+                                
+
+                                <!--castinger End-->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--END-->
+                        <div class="accordion-item nd_single__block project__details mt-40">
+                            <h2 class="accordion-header sidebar__header" id="blockHeadingTwo">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#block-collapseTwo" aria-expanded="false">
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.0061 13.9946L12.0195 10.0081" stroke="currentColor"
+                                            stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12.0181 10.0081L9.16707 12.8591C8.53888 13.4873 7.51606 13.4873 6.88787 12.8591L3.47309 9.4443C2.84491 8.81611 2.84491 7.7933 3.47309 7.16511L9.16707 1.47114C9.79526 0.842953 10.8181 0.842953 11.4463 1.47114L14.861 4.88593C15.4892 5.51412 15.4892 6.53693 14.861 7.16511L12.0181 10.0081Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1.5 16H6.33222" stroke="currentColor" stroke-width="1.5"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M5.17383 5.46582L10.8678 11.1598" stroke="currentColor"
+                                            stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+
+                                    <span>Casters (15)</span>
+                                </button>
+                            </h2>
+                            <div id="block-collapseTwo" class="accordion-collapse collapse show"
+                                aria-labelledby="blockHeadingTwo">
+                                <div class="accordion-body sidebar__body">
+                                    <div class="castingder__comment">
+                                        <div class="avater">
+                                            <img src="assets/images/jackpot-creator/nd-a-one.png" alt="" class="castingder__img">
+                                            <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                        </div>
+                                        <div class="castingder__disc">
+                                            <h5>Join <span> 89 JBALL</span></h5>
+                                            <p>by <span>Tsuki Genesis</span> 1 hours ago</p>
+                                        </div>
+                                    </div>
+                                    <div class="castingder__comment">
+                                        <div class="avater">
+                                            <img src="assets/images/jackpot-creator/nd-a-two.png" alt="" class="castingder__img">
+                                            <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                        </div>
+                                        <div class="castingder__disc">
+                                            <h5>Join <span> 109 JBALL</span></h5>
+                                            <p>by <span>Jahid Hassan</span> 10 hours ago</p>
+                                        </div>
+                                    </div>
+                                    <div class="castingder__comment">
+                                        <div class="avater">
+                                            <img src="assets/images/jackpot-creator/nd-a-three.png" alt="" class="castingder__img">
+                                            <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                        </div>
+                                        <div class="castingder__disc">
+                                            <h5>Join <span> 92 JBALL</span></h5>
+                                            <p>by <span> Norman Gordon</span> 1 days ago</p>
+                                        </div>
+                                    </div>
+                                    <div class="castingder__comment">
+                                        <div class="avater">
+                                            <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                            <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                        </div>
+                                        <div class="castingder__disc">
+                                            <h5>Join <span> 196 JBALL</span></h5>
+                                            <p>by <span>Tsuki Genesis</span> 2 days ago</p>
+                                        </div>
+                                    </div>
+                                    <!--castinger End-->
+                                    <div class="castingder__comment">
+                                        <div class="avater">
+                                            <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                            <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                        </div>
+                                        <div class="castingder__disc">
+                                            <h5>Join <span> 196 JBALL</span></h5>
+                                            <p>by <span>Tsuki Genesis</span> 2 days ago</p>
+                                        </div>
+                                    </div>
+                                    <!--castinger End-->
+                                    <div class="castingder__comment">
+                                        <div class="avater">
+                                            <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                            <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                        </div>
+                                        <div class="castingder__disc">
+                                            <h5>Join <span> 137 JBALL</span></h5>
+                                            <p>by <span>Tsuki Genesis</span> 2 days ago</p>
+                                        </div>
+                                    </div>
+                                    <!--castinger End-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Comment Start-->
+                        <div class="accordion-item nd_single__block project__details mt-40">
+                            <h2 class="accordion-header sidebar__header" id="blockHeadingThree">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#block-collapsJballree" aria-expanded="true">
+                                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18.0568 7.68481L17.2315 11.2047C16.5242 14.2445 15.1264 15.474 12.4991 15.2213C12.0781 15.1877 11.6233 15.1119 11.1349 14.994L9.72027 14.6571C6.20883 13.8235 5.12256 12.0888 5.94779 8.56898L6.77302 5.04071C6.94144 4.32495 7.14353 3.70182 7.39615 3.18816C8.38137 1.15035 10.0571 0.603 12.8696 1.26824L14.2759 1.59664C17.8041 2.42187 18.882 4.16496 18.0568 7.68481Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12.4995 15.2213C11.9774 15.575 11.3206 15.8697 10.5206 16.1307L9.19013 16.5686C5.84712 17.6465 4.08719 16.7454 3.00092 13.4024L1.92307 10.0762C0.84522 6.73323 1.73781 4.96488 5.08083 3.88703L6.4113 3.44915C6.75655 3.33968 7.08496 3.24706 7.39652 3.18811C7.1439 3.70177 6.94181 4.32491 6.77339 5.04066L5.94816 8.56894C5.12294 12.0888 6.20921 13.8235 9.72064 14.6571L11.1353 14.9939C11.6237 15.1118 12.0784 15.1876 12.4995 15.2213Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M10.4609 6.07654L14.545 7.11228" stroke="currentColor"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.63672 9.33533L12.0787 9.95846" stroke="currentColor"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+
+
+                                    <span>Comments</span>
+                                </button>
+                            </h2>
+                            <div id="block-collapsJballree" class="accordion-collapse collapse show"
+                                aria-labelledby="blockHeadingThree">
+                                <div class="accordion-body sidebar__body">
+                                    <!--Comment 1 START-->
+                                    <div class="castingder__comment border">
+                                        <div class="castingder__disc">
+                                            <div class="comment-profil ">
+                                                <div class="avater">
+                                                    <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                                    <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                                </div>
+                                                <h5><span>Agustin Ortiz</span></h5>
+                                            <p>1 days ago</p>
+                                            </div>
+                                            <p style="margin-top:12px;">I believe this project will be great. 5 years of dance education and acting education? what have you been waiting for so far?</p>
+                                            <div class="like-reply">
+                                                <div class="comment-box">
+                                                    <i class="fa fa-reply"></i>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!--Comment 1 END-->
+
+                                    <!--Comment 1 START-->
+                                    <div class="castingder__comment reply__comment border">
+                                        <div class="castingder__disc">
+                                            <div class="comment-profil ">
+                                                <div class="avater-reply">
+                                                    <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                                    
+                                                </div>
+                                                <h5><span> Sergi Roberto </span></h5>
+                                            <p>1 days ago</p>
+                                            </div>
+                                            <p style="margin-top:12px;"><span>@agustin_ortiz</span> that's right</p>
+                                            <div class="like-reply">
+                                                <div class="comment-box">
+                                                    <i class="fa fa-reply"></i>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!--Comment 1 END-->
+                                    <!--Comment 1 START-->
+                                    <div class="castingder__comment border">
+                                        <div class="castingder__disc">
+                                            <div class="comment-profil ">
+                                                <div class="avater">
+                                                    <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                                    <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                                </div>
+                                                <h5><span>Agustin Ortiz</span></h5>
+                                            <p>1 days ago</p>
+                                            </div>
+                                            <p style="margin-top:12px;">I believe this project will be great. 5 years of dance education and acting education? what have you been waiting for so far?</p>
+                                            <div class="like-reply">
+                                                <div class="comment-box">
+                                                    <i class="fa fa-reply"></i>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!--Comment 1 END-->
+                                    <!--Comment 1 START-->
+                                    <div class="castingder__comment border">
+                                        <div class="castingder__disc">
+                                            <div class="comment-profil ">
+                                                <div class="avater">
+                                                    <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                                    <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                                </div>
+                                                <h5><span>Agustin Ortiz</span></h5>
+                                            <p>1 days ago</p>
+                                            </div>
+                                            <p style="margin-top:12px;">I believe this project will be great. 5 years of dance education and acting education? what have you been waiting for so far?</p>
+                                            <div class="like-reply">
+                                                <div class="comment-box">
+                                                    <i class="fa fa-reply"></i>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!--Comment 1 END-->
+                                    <!--Comment 1 START-->
+                                    <div class="castingder__comment border">
+                                        <div class="castingder__disc">
+                                            <div class="comment-profil ">
+                                                <div class="avater">
+                                                    <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                                    <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                                </div>
+                                                <h5><span>Agustin Ortiz</span></h5>
+                                            <p>1 days ago</p>
+                                            </div>
+                                            <p style="margin-top:12px;">I believe this project will be great. 5 years of dance education and acting education? what have you been waiting for so far?</p>
+                                            <div class="like-reply">
+                                                <div class="comment-box">
+                                                    <i class="fa fa-reply"></i>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!--Comment 1 END-->
+                                    <!--Comment 1 START-->
+                                    <div class="castingder__comment border">
+                                        <div class="castingder__disc">
+                                            <div class="comment-profil ">
+                                                <div class="avater">
+                                                    <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                                    <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                                </div>
+                                                <h5><span>Agustin Ortiz</span></h5>
+                                            <p>1 days ago</p>
+                                            </div>
+                                            <p style="margin-top:12px;">I believe this project will be great. 5 years of dance education and acting education? what have you been waiting for so far?</p>
+                                            <div class="like-reply">
+                                                <div class="comment-box">
+                                                    <i class="fa fa-reply"></i>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!--Comment 1 END-->
+                                    <!--Comment 1 START-->
+                                    <div class="castingder__comment border">
+                                        <div class="castingder__disc">
+                                            <div class="comment-profil ">
+                                                <div class="avater">
+                                                    <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                                    <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                                </div>
+                                                <h5><span>Agustin Ortiz</span></h5>
+                                            <p>1 days ago</p>
+                                            </div>
+                                            <p style="margin-top:12px;">I believe this project will be great. 5 years of dance education and acting education? what have you been waiting for so far?</p>
+                                            <div class="like-reply">
+                                                <div class="comment-box">
+                                                    <i class="fa fa-reply"></i>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!--Comment 1 END--><!--Comment 1 START-->
+                                    <div class="castingder__comment border">
+                                        <div class="castingder__disc">
+                                            <div class="comment-profil ">
+                                                <div class="avater">
+                                                    <img src="assets/images/jackpot-creator/nd-a-four.png" alt="" class="castingder__img">
+                                                    <img src="assets/images/icons/tick-blue-m.svg" alt="" class="tick">
+                                                </div>
+                                                <h5><span>Agustin Ortiz</span></h5>
+                                            <p>1 days ago</p>
+                                            </div>
+                                            <p style="margin-top:12px;">I believe this project will be great. 5 years of dance education and acting education? what have you been waiting for so far?</p>
+                                            <div class="like-reply">
+                                                <div class="comment-box">
+                                                    <i class="fa fa-reply"></i>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <!--Comment 1 END-->
+
+
+                                    
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- Comment END-->
+
+
+    <!-- ===============  footer style start =============== -->
+<div class="footer_style__one bg-body-2 varient-2 section_gap_y_top__1">
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-3">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="index.html" class="for-dark"><img src="assets/images/logo.svg" alt=""></a>
+                        <a href="index.html" class="for-light"><img src="assets/images/logo-v2.png" alt=""></a>
+                    </div>
+                    <p>We make creators and investors realize the value of the sharing economy through blockchain-based virtual currency.
+
+                    </p>
+                    <h5>Language</h5>
+
+                    <div class="languege__dropdown varient-3">
+                        <button>
+                            <img src="assets/images/icons/flag-us.png" alt=""> English
+                        </button>
+                        <ul class="languege__list">
+                            <li><a href="index.html"> <img src="assets/images/icons/flag-us.png" alt=""> English</a></li>
+                            <li><a href="index.html"> <img src="assets/images/icons/flag-us.png" alt=""> English</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 d-flex justify-content-lg-center">
+                <div class="footer__widget varient-2">
+                    <h6 class="footer_widget__title">Other Platforms</h6>
+
+                    <ul class="footer_widget__links">
+                        <li><p class="foter_w_l">Jackpotcast Metaverse</a></li>
+                        <li><p class="foter_w_l">Jackpotcast Tv</a></li>
+                        <li><p class="foter_w_l">Jackpotcast Nft Market</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6 d-flex justify-content-lg-center ">
+                <div class="footer__widget varient-2">
+                    <h6 class="footer_widget__title">Company</h6>
+
+                    <ul class="footer_widget__links">
+                       
+                        <li><a href="connect_wallet.html">Connect wallet</a></li>
+                        <li><a href="blog_1.html">Our blog </a></li>
+                        <li><a href="creators.html">Creators</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer__widget newslatter__widget">
+                    <h6 class="footer_widget__title">Join Newsletter</h6>
+                    <!-- <form action="#" mJballod="POST" id="footer_form__one">
+                        <div class="footer_newslatter__one style__three mt-2">
+                            <input type="text" placeholder="Your Email">
+                            <button type="submit"
+                                class="form__submit submit-btn-one btn-rounded-v1">Subscribe</button>
+                        </div>
+                    </form> -->
+
+                    <ul class="footer_social__links d-flex style__three">
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="#"><i class="bi bi-github"></i></a></li>
+                        <li><a href="#"><i class="bi bi-discord"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row footer__copyright has-border-top varient-2">
+            <div class="col-lg-12">
+                <p class="text-center">Copyright©2022/ <a href="index.html">JACKPOTCAST</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+   <!-- ===============  footer style end =============== -->
+   <script type='text/javascript' src='assets/js/yt_video_pd_script.js' id='theme-script-js'></script>
+
+   <!--Custom jsvascript and Plugins -->
+
+  <!-- jquery latest -->
+  <script src="assets/js/jquery-3.6.0.min.js" ></script>
+  <!-- latest bootstarp bundle -->
+  <script src="assets/js/bootstrap.bundle.min.js" ></script>
+  <!-- swiper bundle -->
+  <script src="assets/js/swiper-bundle.min.js" ></script>
+  <!-- wow js -->
+  <script src="assets/js/wow.min.js" ></script>
+  <!-- nice select -->
+  <script src="assets/js/jquery.nice-select.min.js" ></script>
+  <!-- jquery countdown -->
+  <script src="assets/js/jquery.countdown.js"  ></script>
+  <!-- dropzone js -->
+  <script src="assets/js/dropzone.min.js" ></script>
+  <!-- fancybox -->
+  <script src="assets/js/jquery.fancybox.min.js" ></script>
+  <!-- Custom JavaScript -->
+  <script async src="assets/js/main.js"></script>
+</body>
+
+</html>

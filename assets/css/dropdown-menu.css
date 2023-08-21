@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.action {
+  position: static;
+  top: 20px;
+  right: 30px;
+}
+
+.action .profile {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+@media only screen and (min-device-width : 229px) and (max-device-width : 521px) {.action {
+  position: fixed;
+  top: 19px;
+  right: -109px;
+}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {.action {
+  position: fixed;
+  top: 19px;
+  right: -108px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {.action {
+  position: static !important;
+  top: 16px;
+  right: 222px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {.action {
+  position: fixed;
+  top: 16px;
+  right: 222px;
+}
+}
+@media only screen and (min-width : 1224px) {.action {
+  position: static;
+  top: 29px;
+  right: 224px;
+}
+}
+
+.action .profile img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.action .menu {
+ 
+  position: relative;
+    top: 18px;
+    right: 147px;
+    padding: 10px 20px;
+    background: #151526;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    border: 1px solid #fff;
+}
+
+.action .menu.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.action .menu h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 7px 0;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 1.5em;
+}
+
+.action .menu h3 span {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.action .menu ul li {
+  list-style: none;
+  padding: 3px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.action .menu ul li img {
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.action .menu ul li:hover img {
+  opacity: 1;
+}
+
+.action .menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.action .menu ul li:hover a {
+  color: #F01463;
+}
