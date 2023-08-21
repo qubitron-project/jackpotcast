@@ -581,10 +581,10 @@ margin-left:auto !important;
     width: 480px;
     left: 50%;
     top: 50%;
-    margin-left: -239px;
-    margin-top: -238px;
+    margin-left: -250px;
+    margin-top: -249px;
     position: absolute;
-    background: url(http://jackpotcast.io/assets/img/play.png) no-repeat;
+    background: url(http://jackpotcast.com/assets/images/play.png) no-repeat;
     cursor: pointer;
   }
   
@@ -623,13 +623,13 @@ margin-left:auto !important;
   .youtube-player-pd .play {
     background-color: #0000004a !important;
     height: 480px;
-    width: 741px;
+    width: 480px;
     left: 50%;
     top: 50%;
-    margin-left: -366px;
-    margin-top: -202px;
+    margin-left: -250px;
+    margin-top: -249px;
     position: absolute;
-    background: url(http://jackpotcast.io/assets/img/play-pd.png) no-repeat;
+    background: url(http://jackpotcast.com/assets/images/play.png) no-repeat;
     cursor: pointer;
 }
   
